@@ -1,0 +1,7 @@
+﻿$(function(){
+			tInitPaging()
+			setSelectedNav('#<?php echo underscore(preg_replace("/[^A-Za-z0-9]/", " ", $selected_category_name));?>');
+			setSelectedNav('#taboutMalaysia');
+
+			setTimeout ( "tScroller('#getHereContainer', '[name=getHereContent]', '[name=getHereScrollBar]')", 1500 );
+		});

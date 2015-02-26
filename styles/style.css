@@ -1,0 +1,1373 @@
+a {text-decoration:none; color:#000; display:block; border:none;}
+a:hover{text-decoration:none;}
+a:visited{text-decoration:none;}
+ul{margin:0px;padding:0px;}
+.contentContainer section{overflow:visible}
+.inline{float:left}
+.center{margin:auto;width:979px;}
+.clear{clear:both}
+.FullContainer{width:100%; height:100%; margin:0 auto;}
+.Place-Content{width:979px; height:429px; margin:0px auto 0 auto; padding:0; text-align:left;}
+.getHereContent h3 { padding: 16px 0 0 0 }
+.beta {background: url("../images/beta.png") no-repeat scroll left top transparent; height: 50px; position: fixed; right: 0; top: 0; width: 55px; z-index: 50000;display: none;}
+
+.mediumContent{width:900px;margin:auto;}
+.mediumContent .headerbg{width:100%;height:11px;margin:auto;background:url(../images/new/medium-header.png) no-repeat;}
+.mediumContent .bodybg{width:100%;margin:auto;background:url(../images/new/medium-body.png) repeat-y;}
+
+.contentContainer{height:100%;width:100%;padding-top:125px;margin-top:-22px}
+.contentContainer .Search{ height:30px;}
+.contentContainer .Search div {background:url(../images/event-search-bg.jpg) no-repeat; height:35px; width:180px; float:right; margin:0px 50px 10px 0px}
+.contentContainer .Search .textfield{font-size:12px; color:#000; background:none; width:125px; height:22px; margin:5px 0 0 15px; border:none; float:left; }
+.contentContainer .Search .SerachBtn{width:25px; height:25px; float:left;cursor:pointer; background:none; border:none; margin:5px 0 0 5px;}
+
+.preNextPageBtn{width:39px;height:96px;margin-top:150px;}
+.prePage{background:url(../images/Place-Content-bg_06.png) no-repeat;}
+.nextPage{background:url(../images/Place-Content-bg_07.png) no-repeat;}
+.pageFinish, .pageLoading{opacity : 0.4;cursor : default;}
+
+.pageContent{position:relative;}
+.leftEdge,.pagingBody,.rightEdge{ height:46px;float:left;}
+
+/*.KPagination{color: #000000;font-size: 12px;position:absolute;top:-13px;}
+.KPagination {height: 46px;line-height:38px;z-index:300;width:100%;}
+.KPagination .pagingContainer{float:left;position:relative;left:50%}
+.KPagination a { text-decoration: none; color: #ffffff; display:inline-block}
+.KPagination span{ margin:0px 0px 0px 10px;color:#787878}
+.KPagination .leftEdge,.KPagination .pagingBody,.KPagination .rightEdge{position: relative;left:-50%;overflow:hidden}
+.KPagination .leftSection{float: left;}
+.KPagination .rightSection{float: right;}
+.KPagination .pagingTitle .select{color:#fe9b23;font-weight:bold}
+.KPagination .pagingTitle div{margin:0px 10px 0px 0px;font-size:15px;float:left}
+.KPagination .pagingBody{background:url(../images/pagingbodyg.png) top left repeat-x;color:#ffffff;width:865px}
+.KPagination .result {height: 46px;font-size: 12px;margin: 0 0 0 0;text-align: left;padding: 0px 0px 0px 20px;float: left;}
+.KPagination .page {vertical-align:middle;height: 46px;font-size: 12px;text-align:center;margin:0px 0px 0px 20px;float: left;}
+.KPagination .page ul {height: 46px;padding: 0;margin: 0;list-style: none;text-align:center;float: left;text-align: center;}
+.KPagination .page ul li {width: 15px;height: 30px;padding: 0;margin: 0 3px;float: left;text-align:center;}
+.KPagination .selected {font-weight: bold;height: 18px;width: 18px;margin-top: 10px;border-bottom: 5px solid #fe9b23;color: white;float: left;}*/
+.kMidContentViewPort{ width:900px;overflow:hidden;}
+.kMidContentWrapper{ position:relative;float:left;width:900px;}
+.kMidContentItem{ width: 900px;}
+
+.Place-Mid-Content{width:900px;float:left; position:relative;}
+.Place-Mid-Content ul{margin:0px -500px 0px 0px;padding-bottom:45px;display:inline-block}
+.Place-Mid-Content-Left{width:450px; float:left;overflow:hidden;}
+.Place-Mid-Content-Left li{width:430px; height:167px; list-style:none; margin:0 0 10px 0; padding:5px 0 0 20px; position:relative;}
+.Place-Mid-Content-Thumb{width:231px; height:167px; float:left; border:0px; margin-right:10px; background:url(../images/place-thumb-bg.png) no-repeat; padding:1px 0 0 1px;}
+.Place-Mid-Name{ width:175px; font-size:14px; color:#ff8a00; font-weight:bold; float:left; margin:10px 0;}
+.Place-Mid-Name a{color:#ff8a00;}
+.Place-Mid-Name a:hover { text-decoration:none; }
+.Place-Mid-Des{width:175px; height:95px; font-size:11px; color:#000; float:left; margin-bottom:8px; text-align:justify; }
+.Place-Mid-Des p { margin:0;}
+.Place-Mid-More{height:16px; font-size:11px; font-weight:bold; padding-top:5px; float:left; color:#000; cursor:pointer; /*border-style:none none dotted none;*/ border-width:1px;bottom:5px; left:262px; position:absolute}
+.Place-Mid-More a {color:#000;}
+.Place-Mid-More a:hover {color:#FF8A00;}
+.Place-Mid-Content-Right{width:450px; float:left; overflow:hidden; }
+.Place-Mid-Content-Right li{width:430px; height:167px; list-style:none; margin:0 0 10px 0; padding:5px 0 0 20px; position:relative; }
+.Place-SlideRight{width:39px; height:429px; float:left;}
+.Place-SlideRight-top{width:39px; height:82px; background:url(../images/Place-Content-bg_03.png) no-repeat;}
+.Place-SlideRight-Page{ width:38px; height:37px; background:#000; color:#fff; text-align:center; line-height:37px; font-size:11px; border:1px solid #575757; border-left:0;display:none}
+.Place-SlideRight-Page span{font-size:16px; color:#f0eebd;font-weight:bold; }
+.Place-SlideRight-midt{width:39px; height:82px; background:url(../images/Place-Content-bg_05.png) no-repeat;}
+.Place-SlideRight-mid{width:39px; height:90px; background:url(../images/Place-Content-bg_07.png) no-repeat; cursor:pointer;}
+.Place-SlideRight-btm{width:39px; height:176px; background:url(../images/Place-Content-bg_08.png) no-repeat;}
+
+.Banner-Bottom{width:100%; height:60px; background:url(../images/Places-bottom-navi-bg.jpg) repeat-x; margin:0 auto 0 auto;  padding:0px;}
+
+.bg { width:100%; height:428px; margin:-22px auto 0 auto; padding-top:125px; background-position:50% top;background-repeat:no-repeat}
+
+ 
+/* About Msia - In Brief */
+/*.aboutmalaysiasection-in_brief-Bg, .aboutmalaysiasection-taboutMalaysia-Bg{height:490px;background-repeat:no-repeat;background-position:center top}
+.in_brief-Content, .taboutMalaysia-Content{width:979px; height:429px; margin:0px auto 0 auto; padding:0; text-align:left;}
+.in_brief-Content .in_brief { width:490px; height:450px; color:#fff; font-size:12px; margin:0 0 0 105px; float:left; overflow:hidden; }
+.in_brief-Content .in_brief .content { width:470px; color:#fff; font-size:12px; text-align:justify; margin-right:10px; }
+.in_brief-Content .in_brief .content p { line-height:1.3em; }
+.in_brief-Content .in_brief .content a { display:inline; color:#e4e4e4; text-decoration:underline; }
+.in_brief-Content .in_brief .content a:hover { color:#FF8A00; }  
+.in_brief-Content .in_brief h1 { margin-top:30px; color:#fff; font-size:16px; font-weight:lighter; }
+.in_brief-Content .scrollbar { width:8px; height:350px; float:left; margin:100px 0 0 0; }*/
+/*End*/
+
+/* About Msia - Fast Facts */
+/*.aboutmalaysiasection-fast_facts-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+.fast_facts-Content{width:979px; height:429px; margin:0px auto 0 auto; padding:0; text-align:left;}
+.fast_facts-SlideLeft{width:39px; height:429px; float:left;}
+.fast_facts-SlideLeft-top{width:39px; height:159px; background:url(../images/Place-Content-bg_01.png) no-repeat;}
+.fast_facts-SlideLeft-mid{width:39px; height:96px; background:url(../images/Place-Content-bg_06.png) no-repeat; cursor:pointer;}
+.fast_facts-SlideLeft-btm{width:39px; height:174px; background:url(../images/Place-Content-bg_09.png) no-repeat;}
+.fast_facts-Mid-Content{width:900px; height:429px; background:url(../images/Place-Content-bg_02.png) no-repeat; float:left; position:relative;}
+.fast_facts-Mid-Content.large { width:979px; float:none; margin:0 auto; }
+.fast_facts-Mid-Content-Left{width:430px; height:389px; float:left; padding:50px 0 0 20px; overflow:hidden;}
+.fast_facts-Mid-Content-Left li{width:430px; height:167px; list-style:none; margin:0 0 10px 0; padding:0; position:relative;}
+.fast_facts-Mid-Content-Thumb{width:231px; height:167px; float:left; border:0px; margin-right:10px; background:url(../images/place-thumb-bg.png) no-repeat; padding:1px 0 0 1px;}
+.fast_facts-Mid-Name{ width:175px; font-size:14px; color:#ff8a00; font-weight:bold; float:left; margin:10px 0;}
+.fast_facts-Mid-Name a{color:#ff8a00;}
+.fast_facts-Mid-Name a:hover { text-decoration:none; }
+.fast_facts-Mid-Des{width:175px; height:95px; font-size:11px; color:#000; float:left; margin-bottom:8px; text-align:justify; }
+.fast_facts-Mid-Des p { margin:0;}
+.fast_facts-Mid-More{height:16px; font-size:11px; font-weight:bold; padding-top:5px; float:left; color:#000; cursor:pointer; border-width:1px; position:absolute; bottom:5px; left:242px; }
+.fast_facts-Mid-More a {color:#000;}
+.fast_facts-Mid-More a:hover {color:#FF8A00;}
+.fast_facts-Mid-Content-Right{width:430px; height:389px; float:left; padding:50px 0 0 20px; overflow:hidden; }
+.fast_facts-Mid-Content-Right li{width:430px; height:167px; list-style:none; margin:0 0 10px 0; padding:0; position:relative; }
+.fast_facts-SlideRight{width:39px; height:429px; float:left;}
+.fast_facts-SlideRight-top{width:39px; height:82px; background:url(../images/Place-Content-bg_03.png) no-repeat;}
+.fast_facts-SlideRight-Page{ width:38px; height:37px; background:#000; color:#fff; text-align:center; line-height:37px; font-size:11px; border:1px solid #575757; border-left:0;display:none}
+.fast_facts-SlideRight-Page span{font-size:16px; color:#f0eebd;font-weight:bold; }
+.fast_facts-SlideRight-midt{width:39px; height:82px; background:url(../images/Place-Content-bg_05.png) no-repeat;}
+.fast_facts-SlideRight-mid{width:39px; height:90px; background:url(../images/Place-Content-bg_07.png) no-repeat; cursor:pointer;}
+.fast_facts-SlideRight-btm{width:39px; height:176px; background:url(../images/Place-Content-bg_08.png) no-repeat;}
+
+#aboutmalaysiasection-fast_facts-Left .fast_facts-Mid-Content-Left{width:450px; height:428px; padding:0; float:left;}
+#aboutmalaysiasection-fast_facts-Left .fast_facts-Mid-Content-Left ul {margin: 0; padding: 0;list-style-type: none; float:left;}
+#aboutmalaysiasection-fast_facts-Left .fast_facts-Mid-Content-Left li {width:450px; height:428px; display: inline; float:left;}
+#aboutmalaysiasection-fast_facts-Left .fast_facts-Mid-Content-Left .Content {width:450px; height:428px; }
+#aboutmalaysiasection-fast_facts-Left .fast_facts-Mid-Content-Left .Content .fast_facts {font-family: 'OpenSansRegular',sans-serif; left: 0; margin: 0 20px; position: absolute; text-align: justify; top: 0;}
+#aboutmalaysiasection-fast_facts-Left .fast_facts-Mid-Content-Left .Content .fast_facts p {color: #FFFFFF; font-size: 18px; margin: 10px 0;}
+#aboutmalaysiasection-fast_facts-Left .fast_facts-Mid-Content-Left .Content .fast_facts p.font14 {color: #FFFFFF; font-size: 14px;}
+#aboutmalaysiasection-fast_facts-Left .fast_facts-Mid-Content-Left .Content .fast_facts p.font12 {color: #FFFFFF; font-size: 12px;}
+#aboutmalaysiasection-fast_facts-Left .fast_facts-Mid-Content-Left .Content .fast_facts table {color: #FFFFFF; font-size: 12px;}
+
+#aboutmalaysiasection-fast_facts-Right .fast_facts-Mid-Content-Right{width:450px; height:428px; padding:0; float:right;}
+#aboutmalaysiasection-fast_facts-Right .fast_facts-Mid-Content-Right ul {margin: 0; padding: 0;list-style-type: none; float:left;}
+#aboutmalaysiasection-fast_facts-Right .fast_facts-Mid-Content-Right li { width:450px; height:428px; display: inline; float:left;}
+#aboutmalaysiasection-fast_facts-Right .fast_facts-Mid-Content-Right .Content {width:450px; height:428px; }
+#aboutmalaysiasection-fast_facts-Right .fast_facts-Mid-Content-Right .Content .fast_facts {font-family: 'OpenSansRegular',sans-serif; left: 0; margin: 0 20px; position: absolute; text-align: justify; top: 0;}
+#aboutmalaysiasection-fast_facts-Right .fast_facts-Mid-Content-Right .Content .fast_facts p {color: #FFFFFF; font-size: 18px; margin: 10px 0;}
+#aboutmalaysiasection-fast_facts-Right .fast_facts-Mid-Content-Right .Content .fast_facts p.font14 {color: #FFFFFF; font-size: 14px;}
+#aboutmalaysiasection-fast_facts-Right .fast_facts-Mid-Content-Right .Content .fast_facts p.font12 {color: #FFFFFF; font-size: 12px;}
+
+.fast_facts-Mid-Content-Overlay { width:900px; height:428px; position:absolute; display:none;}
+.fast_facts-Mid-Content-Overlay div { float:left; width:450px; height:428px; background:url(../images/ajaxloader.gif) center center no-repeat; } */
+/*End*/
+
+/* About Msia - In Brief */
+.aboutmalaysiasection-in_brief-Bg {background-repeat:no-repeat;background-position:center top;background-color:transparent}
+.in_brief-Content{width:979px; height:429px; background:url(../images/AboutMalaysia_Practical_Bg.png) no-repeat; margin:auto; position:relative;}
+.in_brief-Content nav{width:230px; height:388px; padding:40px 0 0 0; margin:0 0 0 0; float:left; color:#000;}
+.in_brief-Content nav section{width:229px; padding:0; margin:0; list-style:none; color:#000;}
+.in_brief-Content nav section a{width:209px; height:30px; border-top:solid 1px #989797; padding:0; margin:0; list-style:none; color:#656565; font-size:12px; padding:0 0 0 20px; cursor:pointer; color:#656565; line-height:30px;}
+.in_brief-Content nav section .last{width:209px; height:30px; border-top:solid 1px #989797; border-bottom:solid 1px #989797; padding:0; margin:0; list-style:none; color:#656565; font-size:12px; padding:0 0 0 20px; cursor:pointer; color:#656565; line-height:30px;}
+.in_brief-Content nav section a span{width:20px; height:30px; margin:0; float:right; background:url(../images/about-malaysia-arrow.gif) center left no-repeat;}
+.in_brief-Content nav section a:hover span, .in_brief-Content nav section a.selected span { background:url(../images/about-malaysia-arrow-selected.gif) center left no-repeat; }
+.in_brief-Content nav section a span:hover{background-color:#689324; color:#fff;}
+.in_brief-Content nav section a:hover{background-color:#689324; color:#fff;}
+.in_brief-Content nav section a:hover a{background-color:#689324; color:#fff;}
+.in_brief-Content nav section .selected span{background-color:#689324; color:#fff;}
+.in_brief-Content nav section .selected{background-color:#689324; color:#fff;}
+.in_brief-Content nav section .selected a{background-color:#689324; color:#fff;}
+.in_brief-Content-Right{width:720px; height:403px; padding:25px 0 0 25px; font-size:12px; position:absolute; left:230px; top:0px; }
+.in_brief-Content-Right .GetHere { width:720px; height:408px; float:left; }
+.in_brief-Content-Right .GetHere .Content, .in_brief-Content-Right .Pass-Visa .Content, .in_brief-Content-Right .Health-Safe .Content, .in_brief-Content-Right .Do-Dont .Content
+{width:710px; height:381px; float:left; overflow:hidden; text-align:justify;}
+.in_brief-Content-Right .GetHere .Content p { font-size:17px; color:#ff8a00; font-weight:bold; padding:0; margin:0 0 10px 0; }
+.in_brief-Content-Right .GetHere .Content a { display:inline; color: #000000; font-weight: bold; text-decoration: none; }
+.in_brief-Content-Right .GetHere .Content a:hover { color: #FF8A00; text-decoration: none; }
+.in_brief-Content-Right .GetHere .Content h4 { margin:0; }
+.in_brief-Content-Right .GetHere .Content ul { padding-left:20px; }
+.in_brief-Content-Right .GetHere .Content ul li { margin-bottom:15px; }
+.in_brief-Content-Right .GetHere .Content .CTitle { font-weight:normal; font-size:14px; color:#000; float:left; border-bottom: 1px dotted #666; margin-bottom:10px; }
+.in_brief-Content-Right .GetHere .Content .Title td { font-weight:bold; font-size:12px; color:#000; margin:0 0 4px 0; }
+.in_brief-Content-Right .GetHere .Content .first { width:225px; border-right:1px dotted #666; float:left; padding-right:5px;}
+.in_brief-Content-Right .GetHere .Content .second { width:450px; float:left; padding-left:5px; }
+.in_brief-Content-Right .GetHere .Content table { border:0; margin-bottom:10px; }
+.in_brief-Content-Right .GetHere .Content .first table, .in_brief-Content-Right .GetHere .Content .first .CTitle { width:225px; }
+.in_brief-Content-Right .GetHere .Content .first table td { width:112px; }
+.in_brief-Content-Right .GetHere .Content .second table, .in_brief-Content-Right .GetHere .Content .second .CTitle { width:450px; }
+.in_brief-Content-Right .GetHere .Content .second table td { width:225px; }
+.in_brief-Content-Right .GetHere .Content .second table.half { width:220px; float:left; margin-left:5px; }
+.in_brief-Content-Right .GetHere .Content .second table.half td { width:110px; }
+.in_brief-Content-Right .GetHere .Content .second table.first-child { border-right:1px dotted #666; margin-left:0; }
+.in_brief-Content-Right .GetHere .Content table td { padding-bottom:4px; }
+.in_brief-Content-Right .ScrollBar { margin-top:80px; height:301px; width:10px; float:left; margin-left:10px; }
+/*End*/
+
+/* About Msia - Fast Facts */
+.aboutmalaysiasection-fast_facts-Bg {background-repeat:no-repeat;background-position:center top;background-color:transparent}
+.fast_facts-Content{width:979px; height:429px; background:url(../images/AboutMalaysia_Practical_Bg.png) no-repeat; margin:auto; position:relative;}
+.fast_facts-Content nav{width:230px; height:388px; padding:40px 0 0 0; margin:0 0 0 0; float:left; color:#000;}
+.fast_facts-Content nav section{width:229px; padding:0; margin:0; list-style:none; color:#000;}
+.fast_facts-Content nav section a{width:209px; height:30px; border-top:solid 1px #989797; padding:0; margin:0; list-style:none; color:#656565; font-size:12px; padding:0 0 0 20px; cursor:pointer; color:#656565; line-height:30px;}
+.fast_facts-Content nav section .last{width:209px; height:30px; border-top:solid 1px #989797; border-bottom:solid 1px #989797; padding:0; margin:0; list-style:none; color:#656565; font-size:12px; padding:0 0 0 20px; cursor:pointer; color:#656565; line-height:30px;}
+.fast_facts-Content nav section a span{width:20px; height:30px; margin:0; float:right; background:url(../images/about-malaysia-arrow.gif) center left no-repeat;}
+.fast_facts-Content nav section a:hover span, .fast_facts-Content nav section a.selected span { background:url(../images/about-malaysia-arrow-selected.gif) center left no-repeat; }
+.fast_facts-Content nav section a span:hover{background-color:#689324; color:#fff;}
+.fast_facts-Content nav section a:hover{background-color:#689324; color:#fff;}
+.fast_facts-Content nav section a:hover a{background-color:#689324; color:#fff;}
+.fast_facts-Content nav section .selected span{background-color:#689324; color:#fff;}
+.fast_facts-Content nav section .selected{background-color:#689324; color:#fff;}
+.fast_facts-Content nav section .selected a{background-color:#689324; color:#fff;}
+.fast_facts-Content-Right{width:720px; height:403px; padding:25px 0 0 25px; font-size:12px; position:absolute; left:230px; top:0px; }
+.fast_facts-Content-Right .GetHere { width:720px; height:408px; float:left; }
+.fast_facts-Content-Right .GetHere .Content, .fast_facts-Content-Right .Pass-Visa .Content, .fast_facts-Content-Right .Health-Safe .Content, .fast_facts-Content-Right .Do-Dont .Content
+{width:710px; height:381px; float:left; overflow:hidden; text-align:justify;}
+.fast_facts-Content-Right .GetHere .Content p { font-size:17px; color:#ff8a00; font-weight:bold; padding:0; margin:0 0 10px 0; }
+.fast_facts-Content-Right .GetHere .Content a { display:inline; color: #000000; font-weight: bold; text-decoration: none; }
+.fast_facts-Content-Right .GetHere .Content a:hover { color: #FF8A00; text-decoration: none; }
+.fast_facts-Content-Right .GetHere .Content h4 { margin:0; }
+.fast_facts-Content-Right .GetHere .Content ul { padding-left:20px; }
+.fast_facts-Content-Right .GetHere .Content ul li { margin-bottom:15px; }
+.fast_facts-Content-Right .GetHere .Content .CTitle { font-weight:normal; font-size:14px; color:#000; float:left; border-bottom: 1px dotted #666; margin-bottom:10px; }
+.fast_facts-Content-Right .GetHere .Content .Title td { font-weight:bold; font-size:12px; color:#000; margin:0 0 4px 0; }
+.fast_facts-Content-Right .GetHere .Content .first { width:225px; border-right:1px dotted #666; float:left; padding-right:5px;}
+.fast_facts-Content-Right .GetHere .Content .second { width:450px; float:left; padding-left:5px; }
+.fast_facts-Content-Right .GetHere .Content table { border:0; margin-bottom:10px; }
+.fast_facts-Content-Right .GetHere .Content .first table, .fast_facts-Content-Right .GetHere .Content .first .CTitle { width:225px; }
+.fast_facts-Content-Right .GetHere .Content .first table td { width:112px; }
+.fast_facts-Content-Right .GetHere .Content .second table, .fast_facts-Content-Right .GetHere .Content .second .CTitle { width:450px; }
+.fast_facts-Content-Right .GetHere .Content .second table td { width:225px; }
+.fast_facts-Content-Right .GetHere .Content .second table.half { width:220px; float:left; margin-left:5px; }
+.fast_facts-Content-Right .GetHere .Content .second table.half td { width:110px; }
+.fast_facts-Content-Right .GetHere .Content .second table.first-child { border-right:1px dotted #666; margin-left:0; }
+.fast_facts-Content-Right .GetHere .Content table td { padding-bottom:4px; }
+.fast_facts-Content-Right .ScrollBar { margin-top:80px; height:301px; width:10px; float:left; margin-left:10px; }
+/*End*/
+
+/* About Msia - Pratical Info */
+.aboutmalaysiasection-practical_info-Bg {background-repeat:no-repeat;background-position:center top;background-color:transparent}
+.practical_info-Content{width:979px; height:429px; background:url(../images/AboutMalaysia_Practical_Bg.png) no-repeat; margin:auto; position:relative;}
+.practical_info-Content nav{width:230px; height:388px; padding:40px 0 0 0; margin:0 0 0 0; float:left; color:#000;}
+.practical_info-Content nav section{width:229px; padding:0; margin:0; list-style:none; color:#000;}
+.practical_info-Content nav section a{width:209px; height:30px; border-top:solid 1px #989797; padding:0; margin:0; list-style:none; color:#656565; font-size:12px; padding:0 0 0 20px; cursor:pointer; color:#656565; line-height:30px;}
+.practical_info-Content nav section .last{width:209px; height:30px; border-top:solid 1px #989797; border-bottom:solid 1px #989797; padding:0; margin:0; list-style:none; color:#656565; font-size:12px; padding:0 0 0 20px; cursor:pointer; color:#656565; line-height:30px;}
+.practical_info-Content nav section a span{width:20px; height:30px; margin:0; float:right; background:url(../images/about-malaysia-arrow.gif) center left no-repeat;}
+.practical_info-Content nav section a:hover span, .practical_info-Content nav section a.selected span { background:url(../images/about-malaysia-arrow-selected.gif) center left no-repeat; }
+.practical_info-Content nav section a span:hover{background-color:#689324; color:#fff;}
+.practical_info-Content nav section a:hover{background-color:#689324; color:#fff;}
+.practical_info-Content nav section a:hover a{background-color:#689324; color:#fff;}
+.practical_info-Content nav section .selected span{background-color:#689324; color:#fff;}
+.practical_info-Content nav section .selected{background-color:#689324; color:#fff;}
+.practical_info-Content nav section .selected a{background-color:#689324; color:#fff;}
+.practical_info-Content-Right{width:720px; height:403px; padding:25px 0 0 25px; font-size:12px; position:absolute; left:230px; top:0px; }
+.practical_info-Content-Right .GetHere { width:720px; height:408px; float:left; }
+.practical_info-Content-Right .GetHere .Content, .practical_info-Content-Right .Pass-Visa .Content, .practical_info-Content-Right .Health-Safe .Content, .practical_info-Content-Right .Do-Dont .Content
+{width:710px; height:381px; float:left; overflow:hidden; text-align:justify;}
+.practical_info-Content-Right .GetHere .Content p { font-size:17px; color:#ff8a00; font-weight:bold; padding:0; margin:0 0 10px 0; }
+.practical_info-Content-Right .GetHere .Content a { display:inline; color: #000000; font-weight: bold; text-decoration: none; }
+.practical_info-Content-Right .GetHere .Content a:hover { color: #FF8A00; text-decoration: none; }
+.practical_info-Content-Right .GetHere .Content h4 { margin:0; }
+.practical_info-Content-Right .GetHere .Content ul { padding-left:20px; }
+.practical_info-Content-Right .GetHere .Content ul li { margin-bottom:15px; }
+.practical_info-Content-Right .GetHere .Content .CTitle { font-weight:normal; font-size:14px; color:#000; float:left; border-bottom: 1px dotted #666; margin-bottom:10px; }
+.practical_info-Content-Right .GetHere .Content .Title td { font-weight:bold; font-size:12px; color:#000; margin:0 0 4px 0; }
+.practical_info-Content-Right .GetHere .Content .first { width:225px; border-right:1px dotted #666; float:left; padding-right:5px;}
+.practical_info-Content-Right .GetHere .Content .second { width:450px; float:left; padding-left:5px; }
+.practical_info-Content-Right .GetHere .Content table { border:0; margin-bottom:10px; }
+.practical_info-Content-Right .GetHere .Content .first table, .practical_info-Content-Right .GetHere .Content .first .CTitle { width:225px; }
+.practical_info-Content-Right .GetHere .Content .first table td { width:112px; }
+.practical_info-Content-Right .GetHere .Content .second table, .practical_info-Content-Right .GetHere .Content .second .CTitle { width:450px; }
+.practical_info-Content-Right .GetHere .Content .second table td { width:225px; }
+.practical_info-Content-Right .GetHere .Content .second table.half { width:220px; float:left; margin-left:5px; }
+.practical_info-Content-Right .GetHere .Content .second table.half td { width:110px; }
+.practical_info-Content-Right .GetHere .Content .second table.first-child { border-right:1px dotted #666; margin-left:0; }
+.practical_info-Content-Right .GetHere .Content table td { padding-bottom:4px; }
+.practical_info-Content-Right .ScrollBar { margin-top:80px; height:301px; width:10px; float:left; margin-left:10px; }
+/*End*/
+
+/* About Msia - Culrure Heritage */
+.aboutmalaysiasection-culture_heritage-Bg { background-repeat:no-repeat;background-position:center top;background-color:transparent }
+.culture_heritage-Content{width:979px; height:429px; background:url(../images/AboutMalaysia_Practical_Bg.png) no-repeat; margin:auto; position:relative;}
+.culture_heritage-Content nav{width:230px; height:388px; padding:40px 0 0 0; margin:0 0 0 0; float:left; color:#000;}
+.culture_heritage-Content nav section{width:229px; padding:0; margin:0; list-style:none; color:#000;}
+.culture_heritage-Content nav section a{width:209px; height:30px; border-top:solid 1px #989797; padding:0; margin:0; list-style:none; color:#656565; font-size:12px; padding:0 0 0 20px; cursor:pointer; color:#656565; line-height:30px;}
+.culture_heritage-Content nav section .last{width:209px; height:30px; border-top:solid 1px #989797; border-bottom:solid 1px #989797; padding:0; margin:0; list-style:none; color:#656565; font-size:12px; padding:0 0 0 20px; cursor:pointer; color:#656565; line-height:30px;}
+.culture_heritage-Content nav section a span{width:20px; height:30px; margin:0; float:right; background:url(../images/about-malaysia-arrow.gif) center left no-repeat;}
+.culture_heritage-Content nav section a:hover span, .culture_heritage-Content nav section a.selected span { background:url(../images/about-malaysia-arrow-selected.gif) center left no-repeat; }
+.culture_heritage-Content nav section a span:hover{background-color:#689324; color:#fff;}
+.culture_heritage-Content nav section a:hover{background-color:#689324; color:#fff;}
+.culture_heritage-Content nav section a:hover a{background-color:#689324; color:#fff;}
+.culture_heritage-Content nav section .selected span{background-color:#689324; color:#fff;}
+.culture_heritage-Content nav section .selected{background-color:#689324; color:#fff;}
+.culture_heritage-Content nav section .selected a{background-color:#689324; color:#fff;}
+.culture_heritage-Content-Right{width:720px; height:403px; padding:25px 0 0 25px; font-size:12px; position:absolute; left:230px; top:0px; }
+.culture_heritage-Content-Right .GetHere { width:720px; height:408px; float:left; }
+.culture_heritage-Content-Right .GetHere .Content, .culture_heritage-Content-Right .Pass-Visa .Content, .culture_heritage-Content-Right .Health-Safe .Content, .culture_heritage-Content-Right .Do-Dont .Content
+{width:710px; height:381px; float:left; overflow:hidden; text-align:justify; }
+.culture_heritage-Content-Right .GetHere .Content p { font-size:17px; color:#ff8a00; font-weight:bold; padding:0; margin:0 0 10px 0; }
+.culture_heritage-Content-Right .GetHere .Content a { display:inline; color:#656565; }
+.culture_heritage-Content-Right .GetHere .Content a:hover { text-decoration:underline; }
+.culture_heritage-Content-Right .GetHere .Content h4 { margin:0; }
+.culture_heritage-Content-Right .GetHere .Content ul { padding-left:20px; }
+.culture_heritage-Content-Right .GetHere .Content ul li { margin-bottom:15px; }
+.culture_heritage-Content-Right .GetHere .Content .CTitle { font-weight:normal; font-size:14px; color:#000; float:left; border-bottom: 1px dotted #666; margin-bottom:10px; }
+.culture_heritage-Content-Right .GetHere .Content .Title td { font-weight:bold; font-size:12px; color:#000; margin:0 0 4px 0; }
+.culture_heritage-Content-Right .GetHere .Content .first { width:225px; border-right:1px dotted #666; float:left; padding-right:5px;}
+.culture_heritage-Content-Right .GetHere .Content .second { width:450px; float:left; padding-left:5px; }
+.culture_heritage-Content-Right .GetHere .Content table { border:0; margin-bottom:10px; }
+.culture_heritage-Content-Right .GetHere .Content .first table, .culture_heritage-Content-Right .GetHere .Content .first .CTitle { width:225px; }
+.culture_heritage-Content-Right .GetHere .Content .first table td { width:112px; }
+.culture_heritage-Content-Right .GetHere .Content .second table, .culture_heritage-Content-Right .GetHere .Content .second .CTitle { width:450px; }
+.culture_heritage-Content-Right .GetHere .Content .second table td { width:225px; }
+.culture_heritage-Content-Right .GetHere .Content .second table.half { width:220px; float:left; margin-left:5px; }
+.culture_heritage-Content-Right .GetHere .Content .second table.half td { width:110px; }
+.culture_heritage-Content-Right .GetHere .Content .second table.first-child { border-right:1px dotted #666; margin-left:0; }
+.culture_heritage-Content-Right .GetHere .Content table td { padding-bottom:4px; }
+.culture_heritage-Content-Right .ScrollBar { margin-top:80px; height:301px; width:10px; float:left; margin-left:10px; }
+/*End*/
+
+/* Places - States of Malaysia */
+.placessection-tplaces-Bg, .placessection-placestate-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+/*End*/
+
+/* Places - Island Life */
+.placessection-island_life-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+/*End*/
+
+/* Places - City Excitement */
+.placessection-city_excitement-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+/*End*/
+
+/* Places - Nature n Adventure */
+.placessection-nature_n_adventure-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+/*End*/
+
+/* Places - Cultural Attractions */
+.placessection-cultural_attractions-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+/*End*/
+
+/* Experiences - Top 25 Experiences */
+.experiencessection-texperiences-Bg, .experiencessection-top-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+/*End*/
+
+/* Experiences - A Bit of Culture */
+.experiencessection-a_bit_of_culture-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+/*End*/
+
+/* Experiences - Big Day Out */
+.experiencessection-big_day_out-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+/*End*/
+
+/* Experiences - Fun In the Sun */
+.experiencessection-fun_in_the_sun-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+/*End*/
+
+/* Experiences - The Great Outdoors */
+.experiencessection-the_great_outdoors-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+/*End*/
+
+/* Experiences - A Taste of Malaysia */
+.experiencessection-a_taste_of_malaysia-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+/*End*/
+
+/* Events n Festivals */
+.eventsnfestivalssection-tevent-Bg{background-repeat:no-repeat;background-position:center top;background-color:transparent}
+/*End*/
+
+.Place-MyMalaysiaContent,.Place-MyMalaysia-Bg{height:481px}
+.Place-MyMalaysiaContent article{font-size:14px;display:table-cell; vertical-align:middle;width:100%;padding-left:10px}
+.Place-MyMalaysiaContent{width:100%; background-color:transparent; float:left; position:relative;overflow:auto;color:#ffffff}
+.Place-MyMalaysiaContent div{float:left}
+.Place-MyMalaysiaContent section{width:100%;display:block}
+.Place-MyMalaysiaContent section.title{margin:15px 0px 0px 0px}
+.Place-MyMalaysiaContent section.title div,article{width:48%;height:125px;}
+.Place-MyMalaysiaContent section.title div.spliter{width:2%; background:url(../images/my_malaysia_spliter.png) center center no-repeat transparent;}
+.Place-MyMalaysiaContent section.destinationList,.Place-MyMalaysiaContent section.destinationList li{height:340px}
+.Place-MyMalaysiaContent section.destinationList img{border:0px solid #C3C3C3}
+.Place-MyMalaysiaContent section.destinationList article{font-size:12px;padding:0px;vertical-align:top;}
+.Place-MyMalaysiaContent section.destinationList h4{font-weight:normal;margin:5px 0px 10px 0px}
+.Place-MyMalaysiaContent section.destinationList a{display:block;background:url(../images/coming_soon_btn.png) center center no-repeat transparent;width:133px;height:29px}
+.Place-MyMalaysiaContent section.destinationList ul{padding:0;margin:30px 0px 0px 0px}
+.Place-MyMalaysiaContent section.destinationList li{width:299px;list-style:none outside none;float:left}
+.Place-MyMalaysiaContent section.destinationList li.centerElem{margin:0px 18px 0px 18px;}
+
+.Banner-Bottom-aboutmalaysiasection { height:61px; float:left; width:100%; padding:0; cursor:pointer; color:#fff; }
+/*.Banner-Bottom-aboutmalaysiasection a{text-decoration:none;color:#fff;display:inline;display: block;height: 100%;width: 100%;}*/
+.Banner-Bottom-aboutmalaysiasection a {
+    color: #FFFFFF;
+    display: block;
+    height: 42px;
+    padding: 20px 0 0;
+    text-decoration: none;
+    width: 100%;
+}
+.Banner-Bottom-aboutmalaysiasection .center {margin:auto;padding:0;width:100%;float:left;}
+.Banner-Bottom-aboutmalaysiasection ul { margin:0 auto; padding:0; color:#fff; text-align:center; display: table; }
+/*.Banner-Bottom-aboutmalaysiasection ul li{height:45px; list-style:none; font-size:14px; font-weight:bold; color:#fff; text-align:center; margin:0px 5px 0px -30px; float:left; }*/
+.Banner-Bottom-aboutmalaysiasection ul li {
+    color: #FFFFFF;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 62px;
+    list-style: none outside none;
+    margin: -0px 5px 0 -30px;
+    text-align: center;
+}
+.Banner-Bottom-aboutmalaysiasection ul li .HoverbgA{width:26px; height:50px; float:left; }
+.Banner-Bottom-aboutmalaysiasection ul li .HoverbgB{height:59px; float:left; padding:0px 20px 0 20px; font-size:14px; font-weight:normal;}
+.Banner-Bottom-aboutmalaysiasection ul li .HoverbgC{width:23px; height:60px; float:left; }
+.Banner-Bottom-aboutmalaysiasection ul li:hover .HoverbgA{background: url(../images/place-bottom-navi-hover_01.png) no-repeat left top; width:26px; height:60px; float:left;}
+/*.Banner-Bottom-aboutmalaysiasection ul li:hover .HoverbgB{background: url(../images/AboutMsia-bottom-navi-hover_02.jpg) repeat-x center top; height:43px; float:left; padding:17px 20px 0 20px;}*/
+.Banner-Bottom-aboutmalaysiasection ul li:hover .HoverbgB {
+    background: url("../images/AboutMsia-bottom-navi-hover_02.jpg") repeat-x scroll center top transparent;
+    float: left;
+    height: 59px;
+    padding: 0 20px;
+}
+.Banner-Bottom-aboutmalaysiasection ul li:hover .HoverbgC{background: url(../images/place-bottom-navi-hover_03.png) no-repeat center top; width:23px; height:60px; float:left;}
+/*.Banner-Bottom-taboutMalaysia ul li .HoverHLA{background: url(../images/place-bottom-navi-hover_01.png) no-repeat left top; width:26px; height:60px; float:left;}
+.Banner-Bottom-taboutMalaysia ul li .HoverHLB{background: url(../images/AboutMsia-bottom-navi-hover_02.jpg) repeat-x center top; height:43px; float:left; padding:17px 20px 0 20px;}
+.Banner-Bottom-taboutMalaysia ul li .HoverHLC{background: url(../images/place-bottom-navi-hover_03.png) no-repeat center top; width:23px; height:60px; float:left;}*/
+.Banner-Bottom-aboutmalaysiasection .selected .HoverbgA{background: url(../images/place-bottom-navi-hover_01.png) no-repeat left top; width:26px; height:60px; float:left;}
+/*.Banner-Bottom-aboutmalaysiasection .selected .HoverbgB{background: url(../images/AboutMsia-bottom-navi-hover_02.jpg) repeat-x center top; height:43px; float:left; padding:17px 20px 0 20px;}*/
+.Banner-Bottom-aboutmalaysiasection .selected .HoverbgB {
+    background: url("../images/AboutMsia-bottom-navi-hover_02.jpg") repeat-x scroll center top transparent;
+    float: left;
+    height: 59px;
+    padding: 0 20px;
+}
+.Banner-Bottom-aboutmalaysiasection .selected.HoverbgC{background: url(../images/place-bottom-navi-hover_03.png) no-repeat center top; width:23px; height:60px; float:left;}
+
+.Banner-Bottom-experiencessection{width:100%; height:60px; margin:0 auto; padding:0px; cursor:pointer;  overflow:hidden;}
+.Banner-Bottom-experiencessection a{text-decoration:none;color:#fff;display:inline;display: block; height: 40px;width: 100%; padding-top:21px; }
+
+.Banner-Bottom-experiencessection ul {position:relative;float:left;margin:0;padding:0;left:50%}
+.Banner-Bottom-experiencessection ul li{height:45px; list-style:none; font-size:14px; font-weight:normal; color:#fff; text-align:center; margin:0px 10px 0px -30px; float:left;  left:-50% ;position:relative}
+.Banner-Bottom-experiencessection ul .first{height:45px; list-style:none; font-size:14px; color:#fff; text-align:center; margin:0px 10px 0px 3px; float:left;  left:-50% ;position:relative}
+.Banner-Bottom-experiencessection ul li .HoverbgA{width:26px; height:60px; float:left;}
+.Banner-Bottom-experiencessection ul li .HoverbgB{height:60px; float:left; padding:0px 10px 0 10px;}
+.Banner-Bottom-experiencessection ul li .HoverbgC{width:23px; height:60px; float:left;}
+.Banner-Bottom-experiencessection .selected .HoverbgA{background: url(../images/place-bottom-navi-hover_01.png) no-repeat left top; width:26px; height:60px; float:left;}
+.Banner-Bottom-experiencessection .selected .HoverbgB{background: url(../images/ex-bottom-navi-hover_02.jpg) repeat-x center top; height:60px; float:left; padding:0 10px 0 10px;}
+.Banner-Bottom-experiencessection .selected .HoverbgC{background: url(../images/place-bottom-navi-hover_03.png) no-repeat center top; width:23px; height:60px; float:left;}
+.Banner-Bottom-experiencessection ul li:hover .HoverbgA{background: url(../images/place-bottom-navi-hover_01.png) no-repeat left top; width:26px; height:60px; float:left;}
+.Banner-Bottom-experiencessection ul li:hover .HoverbgB{background: url(../images/ex-bottom-navi-hover_02.jpg) repeat-x center top;  height:60px; float:left; padding:0 10px 0 10px;}
+.Banner-Bottom-experiencessection ul li:hover .HoverbgC{background: url(../images/place-bottom-navi-hover_03.png) no-repeat center top; width:23px; height:60px; float:left;}
+/*.Banner-Bottom-texperiences ul li .HoverHLA{background: url(../images/place-bottom-navi-hover_01.png) no-repeat left top; width:26px; height:60px; float:left;}
+.Banner-Bottom-texperiences ul li .HoverHLB{background: url(../images/ex-bottom-navi-hover_02.jpg) repeat-x center top;  height:60px; float:left; padding:21px 10px 0 10px;}
+.Banner-Bottom-texperiences ul li .HoverHLC{background: url(../images/place-bottom-navi-hover_03.png) no-repeat center top; width:23px; height:60px; float:left;}*/
+
+.Banner-Bottom-placessection {width:100%; height:60px; margin:0 auto 0 auto; text-align:center; padding:0px; overflow:hidden;}
+.Banner-Bottom-placessection a{text-decoration:none;color:#fff;display:inline;display: block;height: 40px;width: 100%; padding: 21px 0 0 2px;}
+.Banner-Bottom-placessection ul {position:relative;float:left; margin:0 auto 0 auto; text-align:center; padding:0; left:50%}
+.Banner-Bottom-placessection ul li{height:59px; list-style:none; font-size:14px; font-weight:normal; color:#fff; text-align:center; margin:0px 5px 0px -40px; float:left; left:-50%; position:relative}
+.Banner-Bottom-placessection ul li .HoverbgA{width:26px; height:60px; float:left;}
+.Banner-Bottom-placessection ul li .HoverbgB{height:39px; float:left; padding:0 20px 0 20px;}
+.Banner-Bottom-placessection ul li .HoverbgC{width:23px; height:60px; float:left;}
+.Banner-Bottom-placessection .selected .HoverbgA{background: url(../images/place-bottom-navi-hover_01.png) no-repeat  top; width:26px; height:60px; float:left;}
+.Banner-Bottom-placessection .selected .HoverbgB{background: url(../images/place-bottom-navi-hover_02.png) repeat-x center top;  ;  height:60px; float:left; padding:0 20px 0 20px; cursor:pointer;}
+.Banner-Bottom-placessection .selected .HoverbgC{background: url(../images/place-bottom-navi-hover_03.png) no-repeat center top; width:23px; height:60px; float:left;}
+.Banner-Bottom-placessection ul li:hover .HoverbgA{background: url(../images/place-bottom-navi-hover_01.png) no-repeat left top; width:26px; height:60px; float:left;}
+.Banner-Bottom-placessection ul li:hover .HoverbgB{background: url(../images/place-bottom-navi-hover_02.png) repeat-x center top; height:60px; float:left; padding:0 20px 0 20px;}
+.Banner-Bottom-placessection ul li:hover .HoverbgC{background: url(../images/place-bottom-navi-hover_03.png) no-repeat center top; width:23px; height:60px; float:left;}
+/*.Banner-Bottom-Navi-Places li .HoverHLA{background: url(../images/place-bottom-navi-hover_01.png) no-repeat left top; width:26px; height:60px; float:left;}
+.Banner-Bottom-Navi-Places li .HoverHLB{background: url(../images/place-bottom-navi-hover_02.png) repeat-x center top;  height:60px; float:left; padding:21px 20px 0 20px;}
+.Banner-Bottom-Navi-Places li .HoverHLC{background: url(../images/place-bottom-navi-hover_03.png) no-repeat center top; width:23px; height:60px; float:left;}*/
+
+.Banner-Bottom-eventsnfestivalssection{width:930px; height:60px; margin:0 auto; padding:0px; cursor:pointer;}
+.Banner-Bottom-eventsnfestivalssection .center {margin:auto;padding:0;width:100%;float:left}
+.Banner-Bottom-eventsnfestivalssection ul{width:786px; height:60px; padding:0; margin:0 auto 0 auto; list-style:none; font-size:14px; float:left;}
+.Banner-Bottom-eventsnfestivalssection ul li{text-align:center; float:left; position:relative; margin:0 0 0 -23px;}
+.Banner-Bottom-eventsnfestivalssection ul .first{text-align:center; float:left; position:relative; margin:0 0 0 0px;}
+.Banner-Bottom-eventsnfestivalssection ul .last{text-align:center; float:left; position:relative; margin:0 0 0 -23px;}
+.Banner-Bottom-eventsnfestivalssection .Featured{position:relative;width:104px; height:44px; background:url(../images/Events-bottom-navi_01.png) no-repeat; float:left; cursor:default; font-size: 28px; padding: 16px 0 0 40px;}
+.Banner-Bottom-eventsnfestivalssection .Year-Left{width:32px; height:60px; background:url(../images/Events-bottom-navi_02.jpg) no-repeat; float:left;}
+.Banner-Bottom-eventsnfestivalssection .Year-Right{width:32px; height:60px; background:url(../images/Events-bottom-navi_03.jpg) no-repeat; float:left;}
+.Banner-Bottom-eventsnfestivalssection ul li .HoverbgA{width:17px; height:50px; float:left;}
+.Banner-Bottom-eventsnfestivalssection ul li .HoverbgB{height:38px; float:left; padding:0px 10px 0; font-size:10px; }
+.Banner-Bottom-eventsnfestivalssection ul li .HoverbgB a {color:#fff; display: block;height: 40px;width: 100%; padding:21px 0 0 0} 
+.Banner-Bottom-eventsnfestivalssection ul li .HoverbgC{width:15px; height:60px; float:left;}
+.Banner-Bottom-eventsnfestivalssection ul li:hover .HoverbgA{background: url(../images/place-bottom-navi-hover_01.png) no-repeat left top; width:17px; height:60px; float:left;}
+.Banner-Bottom-eventsnfestivalssection ul li:hover .HoverbgB{background: url(../images/Event-bottom-navi-hover_02.jpg) repeat-x center top; height:60px; float:left; padding:0 10px 0 10px;}
+.Banner-Bottom-eventsnfestivalssection ul li:hover .HoverbgC{background: url(../images/place-bottom-navi-hover_03.png) no-repeat center top; width:15px; height:60px; float:left;}
+.Banner-Bottom-eventsnfestivalssection ul .selected .HoverbgA{background: url(../images/place-bottom-navi-hover_01.png) no-repeat left top; width:17px; height:60px; float:left;}
+.Banner-Bottom-eventsnfestivalssection ul .selected .HoverbgB{background: url(../images/Event-bottom-navi-hover_02.jpg) repeat-x center top; height:60px; float:left; padding:0 10px 0 10px;}
+.Banner-Bottom-eventsnfestivalssection ul .selected .HoverbgC{background: url(../images/place-bottom-navi-hover_03.png) no-repeat center top; width:15px; height:59px; float:left;}
+.Banner-Bottom-eventsnfestivalssection .Featured .preyear{background-image: url("/images/left_date.png");
+                                                            background-position: right center;
+                                                            background-repeat: no-repeat;
+                                                            height: 48px;
+                                                            left: 0px;
+                                                            position: absolute;
+                                                            top: 8px;
+                                                            width: 23px;}
+.Banner-Bottom-eventsnfestivalssection .Featured .nextyear{background-image: url("/images/right_date.png");
+                                                            background-position: left center;
+                                                            background-repeat: no-repeat;
+                                                            height: 48px;
+                                                            right: 0px;
+                                                            position: absolute;
+                                                            top: 8px;
+                                                            width: 23px;}
+.Banner-Bottom-eventsnfestivalssection .Featured .preyear:hover{background-image: url("/images/left_date.png");
+                                                            background-position: right center;
+                                                            background-repeat: no-repeat;
+                                                            height: 48px;
+                                                            left: 0px;
+                                                            position: absolute;
+                                                            top: 8px;
+                                                            width: 23px;
+                                                            opacity : 0.6;}
+.Banner-Bottom-eventsnfestivalssection .Featured .nextyear:hover{background-image: url("/images/right_date.png");
+                                                            background-position: left center;
+                                                            background-repeat: no-repeat;
+                                                            height: 48px;
+                                                            right: 0px;
+                                                            position: absolute;
+                                                            top: 8px;
+                                                            width: 23px;
+                                                            opacity : 0.6;}
+/* parallax setting */
+#homeParallax #p5Layer img{position:absolute;display:block}
+
+#homeParallax .footer{bottom:0px;}
+#homeParallax  footer{margin:0px auto 0px auto;}
+#homeParallax .bgRoll{ position:absolute;top:0px;width:100%;}
+/*#homeParallax .bgimg{height:6750px;width:100%;position:relative;overflow:hidden;}*/
+#homeParallax .bgimg{height:5950px;width:100%;position:relative;overflow:hidden;}
+#homeParallax .inner_bgimg {float:left;position:relative;left:50%;}
+#homeParallax .bgimg .inner_bgimg img { position:relative; left:-50%; cursor:default;}
+#homeParallax .inner_layer {float:left;position:relative;left:50%;}
+#homeParallax .inner_layer img { position:relative; left:-50%; cursor:default; }
+#homeParallax .fixContainer{width:1000px;margin :0px auto 0px auto;}
+#homeParallax section{position : relative;overflow:hidden;background-image : none;}
+#homeParallax section div{background-position: center 0px;background-repeat: no-repeat;}
+#homeParallax section div img{border:none; cursor:pointer;}
+#homeParallax section div p { color:#fff; font-size:13px; font-weight:normal; margin:10px 0; padding:0; line-height:1.3em;}
+#homeParallax section .showMoreContainer div { margin:0 auto; width:1000px; }
+#homeParallax section div h1 { color:#000; font-size:40px; font-weight:bold; margin:20px 0; }
+#homeParallax section div h1 span { font-weight:normal; }
+#homeParallax section div h1 a:hover { color:#706455; }
+#homeParallax #sliderContainer{right:0px;top:0px;position:absolute;z-index:10001;width:8px;background-color:#ffffff;opacity : 0.5;}
+#homeParallax .fixContainer div{opacity:1; }
+#homeParallax .fixContainer h1 {color:#fff;font:normal 50px 'DancingScriptRegular',sans-serif;margin-bottom:10px;}
+#homeParallax .fixContainer h1 .big { font-size:91px; }
+#homeParallax .fixContainer img { border:0; }
+#homeParallax .fixContainer .showMoreContainer h1 { margin:20px 0; font:bold 40px 'OpenSans-Bold', Helvetica, Arial, sans-serif; }
+#homeParallax #parallaxFooter{ position : absolute;z-index:1000;}
+#homeParallax .top25more {background:url("/-/media/Images/Tourism Malaysia/Assets/Buttons/index-ex-mores.ashx") no-repeat scroll left top transparent; width:145px; height:135px; text-transform:uppercase; color:#fff; text-align:center; line-height:135px; font-size:24px; margin:0 auto; border-outline:none; }
+#homeParallax .top25more:hover { color:#00c9f8; background:url("/-/media/Images/Tourism Malaysia/Assets/Buttons/index-ex-more.ashx") no-repeat scroll left top transparent}
+#homeParallax #p5Text {text-align:center;left:0px !important;}
+.imgScroll {
+    display: none;
+    height: 22%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 39%;
+    width: 100%;
+    z-index: 1000;
+}
+.imgScroll img {
+    cursor: default;
+    height: 100%;
+    width: auto;
+}
+
+.footer { width:100%; height:209px; background:url(../images/Inner-Footer-bg.jpg) repeat-x;}
+.Inner-Footer { float:left; width:100%; height:209px; }
+.Inner-Footer nav { margin:0 auto; width:1000px; }
+.Inner-Footer nav ul{ height:189px; text-align:left; float:left; margin:0 0 0 0; padding:19px 0 0 8px; list-style:none; font-size:11px; color:#ff8200; background:url(../images/Inner-Footer-line.png) no-repeat right top;}
+.Inner-Footer nav li{  margin:0; padding:0; font-size:11px; color:#fff; line-height:12px; padding:0 10px 6px 0; }
+.Inner-Footer nav ul .firstchild { height:19px; }
+.Inner-Footer nav ul .firstchild, .Inner-Footer nav ul .firstchild a { color:#ff8200; font-weight:bold; }
+.Inner-Footer nav li a { color:#fff; }
+.Inner-Footer nav li a:hover { color:#ff8200; text-decoration:underline; }
+.Inner-Footer nav li label { margin-bottom:5px; float:left; display:inline;}
+.Inner-Footer nav input { width:130px; height:22px; margin:0; padding:0 5px; font-size:11px; color:#fff; background:#000; float:left; border:1px solid #6d3d1e; }
+.Inner-Footer nav #email { width:130px; height:22px; margin:0; padding:0 5px; font-size:11px; color:#fff; background:#000; float:left; border:1px solid #6d3d1e; }
+.Inner-Footer nav .Gobtn { width:26px; height:21px; background:url(../images/Inner-Footer-go-btn.jpg) center center no-repeat; cursor:pointer; float:left; margin:1px 0 0 0; border:1px solid #cc0000; }
+.Inner-Footer nav .SitemapIcon{ height:13px; background:url(../images/sitemap-icon.png) no-repeat left; }
+.Inner-Footer .footer_contactus { width:170px; }
+.Inner-Footer .footer_findus { width:126px; }
+.Inner-Footer .footer_resources { width:143px; background:none; }
+.Inner-Footer .footer_resources.last { background:url(../images/Inner-Footer-line.png) top right no-repeat; }
+.Inner-Footer .footer_programmes { width:180px; }
+.Inner-Footer .footer_last { width:178px; background:none; }
+.Inner-Footer .footer_last .SitemapIcon a { padding-left:18px; }
+
+/*Google Search */
+.Place-GoogleSearch-Bg {height:490px; margin-top:0;}
+.Place-GoogleSearch-Bg, .Place-GoogleSearch-Bg .Place-Content, .googleContent {height:481px}
+.googleSearch {background: url("../images/GoogleSearch_bg3.png") no-repeat scroll 0 0 transparent; height: 50px; position: relative; text-align: center; top: 40%; width: 980px;}
+.googleWrapper { height: 50px; margin: 0 auto;}
+/*.googleSearch .searchTitle { display: inline-block; height: 50px; position: relative; top: -20px;}*/
+.googleSearch .searchTitle { display: inline-block; height: 50px; position: relative; top: -23px;}
+.googleSearch .searchTitle h4 { color: #FF8A00; margin: 0; padding: 0; width: 100%;}
+.googleResults { background: none repeat scroll 0 0 #FDFBF8; border-top-left-radius: 5px; border-top-right-radius: 5px; height: 411px; margin: 10px auto 0; padding-top: 10px; position: relative; visibility: hidden; width: 980px; z-index: 9999;}
+
+/*Contact Us, Terms of Use, Disclaimer */
+.headOffice-Bg, .localTMOffice-Bg, .overOffice-Bg, .markRepresent-Bg, .tourisInfoCenter-Bg, .enquiry-Bg, .disclaimer-Bg, .termsOfUse-Bg, .sitemap-Bg {background-repeat:no-repeat;background-position:center top;height: 490px;}
+.headOffice-Content, .localTMOffice-Content, .overOffice-Content, .markRepresent-Content, .tourisInfoCenter-Content, .enquiry-Content, .disclaimer-Content, .termsOfUse-Content, .sitemap-Content {background:url(../images/Enquiry-Content-bg.png) no-repeat; width:1000px; height:490px;  margin:0 auto; position:relative;}
+.headOffice-Content .Left, .localTMOffice-Content .Left, .overOffice-Content .Left, .markRepresent-Content .Left, .tourisInfoCenter-Content .Left, .enquiry-Content .Left, .disclaimer-Content .Left, .termsOfUse-Content .Left, .sitemap-Content .Left { height:480px; width:233px; margin:0 0 0 12px; float:left; padding:0; font-size:12px; color:#000; text-align:left;}
+.headOffice-Content .Left nav, .localTMOffice-Content .Left nav, .overOffice-Content .Left nav, .markRepresent-Content .Left nav, .tourisInfoCenter-Content .Left nav, .enquiry-Content .Left nav, .disclaimer-Content .Left nav, .termsOfUse-Content .Left nav, .sitemap-Content .Left nav { width:233px; height:120px; margin:0 0 0 0; padding:10px 0 0 2px; text-align:left; font-size:12px; color:#656565;}
+.headOffice-Content .Left nav .selected, .localTMOffice-Content .Left nav .selected, .overOffice-Content .Left nav .selected, .markRepresent-Content .Left nav .selected, .tourisInfoCenter-Content .Left nav .selected, .enquiry-Content .Left nav .selected, .disclaimer-Content .Left nav .selected, .termsOfUse-Content .Left nav .selected, .sitemap-Content .Left nav .selected { background:#ececea; font-weight:600; color:#656565;}
+.headOffice-Content .Left nav a, .localTMOffice-Content .Left nav a, .overOffice-Content .Left nav a, .markRepresent-Content .Left nav a, .tourisInfoCenter-Content .Left nav a, enquiry-Content .Left nav a, .disclaimer-Content .Left nav a, .termsOfUse-Content .Left nav a, .sitemap-Content .Left nav a { color:#656565; width:212px; height:30px; margin:0; padding:0 0 0 20px; line-height:30px; border-top:1px solid #b4b0a9; cursor:pointer;}
+.headOffice-Content .Left nav .first, .localTMOffice-Content .Left nav .first, .overOffice-Content .Left nav .first, .markRepresent-Content .Left nav .first, .tourisInfoCenter-Content .Left nav .first, .enquiry-Content .Left nav .first, .disclaimer-Content .Left nav .first, .termsOfUse-Content .Left nav .first, .sitemap-Content .Left nav .first { border-top:1px solid #b4b0a9; }
+.headOffice-Content .Left nav .last, .localTMOffice-Content .Left nav .last, .overOffice-Content .Left nav .last , .markRepresent-Content .Left nav .last , .tourisInfoCenter-Content .Left nav .last, .enquiry-Content .Left nav .last, .disclaimer-Content .Left nav .last, .termsOfUse-Content .Left nav .last, .sitemap-Content .Left nav .last { border-top:1px solid #b4b0a9; border-bottom:1px solid #b4b0a9; }
+.headOffice-Content .Left nav a span, .localTMOffice-Content .Left nav a span, .overOffice-Content .Left nav a span, .markRepresent-Content .Left nav a span, .tourisInfoCenter-Content .Left nav a span, .enquiry-Content .Left nav a span, .disclaimer-Content .Left nav a span, .termsOfUse-Content .Left nav a span, .sitemap-Content .Left nav a span { color:red; }
+.headOffice-Content .Left nav a:hover, .localTMOffice-Content .Left nav a:hover, .overOffice-Content .Left nav a:hover, .markRepresent-Content .Left nav a:hover, .tourisInfoCenter-Content .Left nav a:hover, .enquiry-Content .Left nav a:hover, .disclaimer-Content .Left nav a:hover, .termsOfUse-Content .Left nav a:hover, .sitemap-Content .Left nav a:hover { background:#ececea; font-weight:bold; color:#656565; }
+.headOffice-Content .Left .Address, .localTMOffice-Content .Left .Address, .overOffice-Content .Left .Address, .markRepresent-Content .Left .Address, .tourisInfoCenter-Content .Left .Address, .enquiry-Content .Left .Address, .disclaimer-Content .Left .Address, .termsOfUse-Content .Left .Address, .sitemap-Content .Left .Address {width:212px; height:120px; margin:0 0 10px 0; padding:20px 0 0 20px; text-align:left; font-size:12px; color:#000;}
+.headOffice-Content .Left .Address h1, .localTMOffice-Content .Left .Address h1, .overOffice-Content .Left .Address h1, .markRepresent-Content .Left .Address h1, .tourisInfoCenter-Content .Left .Address h1, .enquiry-Content .Left .Address h1, .disclaimer-Content .Left .Address h1, .termsOfUse-Content .Left .Address h1, .sitemap-Content .Left .Address h1 {padding:0; margin:0; font-size:16px; font-weight:normal;}
+.headOffice-Content .Left .Address a, .localTMOffice-Content .Left .Address a, .overOffice-Content .Left .Address a, .markRepresent-Content .Left .Address a, .tourisInfoCenter-Content .Left .Address a, .enquiry-Content .Left .Address a, .disclaimer-Content .Left .Address a, .termsOfUse-Content .Left .Address a, .sitemap-Content .Left .Address a {display: inline;}
+.headOffice-Content .Left .Address a:hover, .localTMOffice-Content .Left .Address a:hover, .overOffice-Content .Left .Address a:hover, .markRepresent-Content .Left .Address a:hover, .tourisInfoCenter-Content .Left .Address a:hover, .enquiry-Content .Left .Address a:hover, .disclaimer-Content .Left .Address a:hover, .termsOfUse-Content .Left .Address a:hover, .sitemap-Content .Left .Address a:hover { text-decoration:underline; }
+.headOffice-Content .Left .MapContainer, .localTMOffice-Content .Left .MapContainer, .overOffice-Content .Left .MapContainer, .markRepresent-Content .Left .MapContainer, .tourisInfoCenter-Content .Left .MapContainer, .enquiry-Content .Left .MapContainer, .disclaimer-Content .Left .MapContainer, .termsOfUse-Content .Left .MapContainer, .sitemap-Content .Left .MapContainer { width:185px; height:160px; border:solid 1px #9a9793; margin:20px 0 0 0; }
+
+.headOffice-Content .Right, .localTMOffice-Content .Right, .overOffice-Content .Right, .markRepresent-Content .Right, .tourisInfoCenter-Content .Right, .termsOfUse-Content .Right, .disclaimer-Content .Right { width:693px; height:440px; margin:0 auto; float:left; padding:25px 17px 0 17px; top:0px;}
+.headOffice-Content .Local, .localTMOffice-Content .Local, .overOffice-Content .Local, .markRepresent-Content .Local, .tourisInfoCenter-Content .Local, .termsOfUse-Content .Local, .disclaimer-Content .Local { width:693px; height:440px; float:left;}
+
+.headOffice-Content .Right .Local .Content, .localTMOffice-Content .Right .Local .Content, .overOffice-Content .Right .Local .Content, .markRepresent-Content .Right .Local .Content, .tourisInfoCenter-Content .Right .Local .Content, .termsOfUse-Content .Right .Local .Content, .disclaimer-Content .Right .Local .Content {width:710px; height:440px; overflow:hidden; float:left;}
+.headOffice-Content .Right .ScrollBar, .localTMOffice-Content .Right .ScrollBar, .overOffice-Content .Right .ScrollBar, .markRepresent-Content .Right .ScrollBar, .tourisInfoCenter-Content .Right .ScrollBar, .termsOfUse-Content .Right .ScrollBar, .disclaimer-Content .Right .ScrollBar { width:10px; height:357px; float:left; margin:83px 0 0 10px; }
+.headOffice-Content .Right .Local .Content ul, .localTMOffice-Content .Right .Local .Content ul, .overOffice-Content .Right .Local .Content ul, .markRepresent-Content .Right .Local .Content ul, .tourisInfoCenter-Content .Right .Local .Content ul, .termsOfUse-Content .Right .Local .Content ul, .disclaimer-Content .Right .Local .Content ul, .sitemap-Content .Right .Local .Content {float:left; width:685px; height:auto; margin:0; padding:0; list-style:none; font-size:12px;}
+.headOffice-Content .Right li, .localTMOffice-Content .Right li, .overOffice-Content .Right li, .markRepresent-Content .Right li, .tourisInfoCenter-Content .Right li, .termsOfUse-Content .Right li, .disclaimer-Content .Right li { float:left; width:690px; padding-bottom:15px; margin-bottom:15px; border-style:none none dotted none; border-width:1px; border-color:#414040;}
+.headOffice-Content .Right .Local .Content ul li span, .localTMOffice-Content .Right .Local .Content ul li span, .overOffice-Content .Right .Local .Content ul li span, .markRepresent-Content .Right .Local .Content ul li span, .tourisInfoCenter-Content .Right .Local .Content ul li span, .termsOfUse-Content .Right .Local .Content ul li span, .disclaimer-Content .Right .Local .Content ul li span {color:red;  margin:0 25px 0 0;}
+
+.headOffice-Content h2, .localTMOffice-Content h2, .overOffice-Content h2, .markRepresent-Content h2, .tourisInfoCenter-Content h2, .termsOfUse-Content h2, .disclaimer-Content h2 { float:left; width:685px; font-weight:bold; font-size:14px; color:#000; margin:0; padding:0; text-transform:uppercase; width:685px; }
+.headOffice-Content .contact-left, .localTMOffice-Content .contact-left, .overOffice-Content .contact-left, .markRepresent-Content .contact-left, .tourisInfoCenter-Content .contact-left, .termsOfUse-Content .contact-left, .disclaimer-Content .contact-left { float:left; width:332px; padding-right:10px; display:inline; }
+.headOffice-Content p, .localTMOffice-Content p, .overOffice-Content p, .markRepresent-Content p, .tourisInfoCenter-Content p, .termsOfUse-Content p, .disclaimer-Content p { float:left; font-size:12px; color:#000; margin-top:0; line-height:1.3em; width:332px; }
+
+.termsOfUse-Content p, .disclaimer-Content p { width:685px; text-align:justify; }
+
+.headOffice-Content .Right a, .localTMOffice-Content .Right a, .overOffice-Content .Right a, .markRepresent-Content .Right a, .tourisInfoCenter-Content .Right a, .termsOfUse-Content .Right a, .disclaimer-Content .Right a { display:inline; }
+.headOffice-Content .Right a:hover, .localTMOffice-Content .Right a:hover, .overOffice-Content .Right a:hover, .markRepresent-Content .Right a:hover, .tourisInfoCenter-Content .Right a:hover, .termsOfUse-Content .Right a:hover, .disclaimer-Content .Right a:hover { text-decoration:none; color:#ff8a00; }
+.headOffice-Content .linkfb, .localTMOffice-Content .linkfb, .overOffice-Content .linkfb, .markRepresent-Content .linkfb, .tourisInfoCenter-Content .linkfb, .termsOfUse-Content .linkfb, .disclaimer-Content .linkfb { width:332px; float:left; margin-bottom:0; font-weight:bold; }
+.headOffice-Content .linkfb a, .localTMOffice-Content .linkfb a, .overOffice-Content .linkfb a, .markRepresent-Content .linkfb a, .tourisInfoCenter-Content .linkfb a, .termsOfUse-Content .linkfb a, .disclaimer-Content .linkfb a { float:left; padding-left:23px; height:17px; line-height:20px; }
+.headOffice-Content a.contact-facebook, .localTMOffice-Content a.contact-facebook, .overOffice-Content a.contact-facebook, .markRepresent-Content a.contact-facebook, .tourisInfoCenter-Content a.contact-facebook, .termsOfUse-Content a.contact-facebook, .disclaimer-Content a.contact-facebook { background:url(../images/contact-fb-icon.jpg) top left no-repeat; }
+.headOffice-Content a.contact-map, .localTMOffice-Content a.contact-map, .overOffice-Content a.contact-map, .markRepresent-Content a.contact-map, .tourisInfoCenter-Content a.contact-map, .termsOfUse-Content a.contact-map, .disclaimer-Content a.contact-map { background:url(../images/contact-map-icon.png) top left no-repeat; }
+.headOffice-Content .Right .localContent h1, .localTMOffice-Content .Right .localContent h1, .overOffice-Content .Right .localContent h1, .markRepresent-Content .Right .localContent h1, .tourisInfoCenter-Content .Right .localContent h1, .termsOfUse-Content .Right .localContent h1, .disclaimer-Content .Right .localContent h1 { font-size:18px; margin:0 0 15px 0; }
+.headOffice-Content .Right .localContent h2, .localTMOffice-Content .Right .localContent h2, .overOffice-Content .Right .localContent h2, .markRepresent-Content .Right .localContent h2, .tourisInfoCenter-Content .Right .localContent h2, .termsOfUse-Content .Right .localContent h2, .disclaimer-Content .Right .localContent h2 { font-size:14px; }
+.headOffice-Content .Right .localContent h3, .localTMOffice-Content .Right .localContent h3, .overOffice-Content .Right .localContent h3, .markRepresent-Content .Right .localContent h3, .tourisInfoCenter-Content .Right .localContent h3, .termsOfUse-Content .Right .localContent h3, .disclaimer-Content .Right .localContent h3 { float:left;font-size:12px; }
+.headOffice-Content .Right .localContent a, .localTMOffice-Content .Right .localContent a, .overOffice-Content .Right .localContent a, .markRepresent-Content .Right .localContent a, .tourisInfoCenter-Content .Right .localContent a, .termsOfUse-Content .Right .localContent a, .disclaimer-Content .Right .localContent a { color: #000000; font-weight: bold; text-decoration: none; }
+.headOffice-Content .Right .localContent a:hover, .localTMOffice-Content .Right .localContent a:hover, .overOffice-Content .Right .localContent a:hover, .markRepresent-Content .Right .localContent a:hover, .tourisInfoCenter-Content .Right .localContent a:hover, .termsOfUse-Content .Right .localContent a:hover, .disclaimer-Content .Right .localContent a:hover { text-decoration:none; color:#ff8a00; }
+
+/* Enquiry Form*/
+.enquiry-Content .Right { width:722px; height:470px; float:left; }
+.enquiry-Content .Right .Content{width:742px; height:470px; margin:0; float:left; text-align:left; overflow:hidden; }
+.enquiry-Content .Right .Content .FormContainer{ float:left; width:690px; min-height:20px; margin:0 0 10px 0; padding:10px 10px 0 0; text-align:left; }
+.enquiry-Content .Right .Content .Title{width:165px; font-size:12px; font-weight:bold; float:left; text-align:left;}
+.enquiry-Content .Right .Content .Form{width:505px; font-size:12px; float:left; }
+.enquiry-Content .Right .Content h1 {float: left; font-size: 18px; font-weight: bold; padding: 0; width:692px; margin:25px 0 0 25px;}
+.enquiry-Content .Right .Content iframe { margin:15px 0 0 5px; }
+.enquiry-Content .Right .Content .Form ul{width:100%; list-style:none; margin:0; padding:0;}
+.enquiry-Content .Right .Content .Form ul li{width:520px; min-height:20px; margin:0 0 10px 0; padding:0;}
+.enquiry-Content .Right .Content .Form h6{padding:8px 0 0 15px; margin:0; color:#5c5c5c; font-size:10px;}
+.enquiry-Content .Right .Content .Form input{width:300px; height:20px; font-size:12px; float:left; border:1px solid #bbbab9; margin:0 10px 0 0; box-shadow:1px 1px #94918f;}
+.enquiry-Content .Right .Content .Form li input{width:13px; height:16px; padding:0 0 0 0; float:left; border:0; background:none; border-color:transparent; margin:0 10px 0 0px; box-shadow:none;}
+.enquiry-Content .Right .Content p{font-size:16px; font-weight:bold; color:#000; margin:0; padding:0;}
+/*Enquiry Form*/
+
+/* eBrochures */
+.brochure-Bg { height:490px; margin-top:0; }
+.brochure-Bg .brochure-wrapper { width:1000px; margin:0 auto; height:490px; }
+.brochure-Bg .brochure-Content{ width:460px; text-align:left; margin-left:75px; }
+.brochure-Bg .brochure-Content h1.title { font:normal 85px 'DancingScriptRegular',sans-serif; color:#f1a700; margin:0; }
+.brochure-Bg .brochure-Content p { color:#fff; font-size:18px; font-weight:lighter; padding:0; margin:0; width:390px; text-align:justify;}
+.brochure-Bg .brochure-Content .view-all{width:173px; height:29px; margin:12px 0 0 0; cursor:pointer;}
+.brochure-Bg .brochure-Content .feature { float:left; margin-top:20px; }
+.brochure-Bg .brochure-Content .feature h2 { color:#ffb400; font-size:14px; font-weight:400; padding:0; margin:25px 0 0 0; }
+.brochure-Bg .brochure-Content .feature h1 { color:#fff; font-size:24px; font-weight:400; padding:0; margin:0;}
+.brochure-Bg .brochure-Content .feature p { color:#fff; font-size:12px; font-weight:normal; padding:0; margin-top:15px; line-height:1.25em; text-align:justify; }
+.brochure-Bg .brochure-Content .language { float:left; width:400px; }
+.brochure-Bg .brochure-Content .language p { color:#fff; font-size:14px; font-weight:400; padding:0; margin:15px 0 0 0; float:left; }
+.brochure-Bg .brochure-Content .language .select select{background:#fff; width:169px; height:20px; border:none; margin:3px 0 0 0;}
+.brochure-Bg .brochure-Content .language .select {background: url("../images/input-185.png") no-repeat scroll 0 0 transparent; border: medium none; color: #656565; float: left; height: 28px; margin: 0 0 10px; width: 187px;}
+.brochure-Bg .brochure-Content .language .view{ width:76px; height:29px; float:left; cursor:pointer;}
+.brochure-Bg .brochure-Content .language .new { font-size:12px; margin:5px 0 0 0; padding:0; float:left; }
+.brochure-Bg .brochure-Content .language .new span { font-weight:bold; color:#ffb400; }
+.brochure-pagging-Bg { margin-top:0; }
+.brochure-pagging-Bg .brochure-Content{width:1000px; height:420px; margin:0 auto; padding:0; text-align:left;}
+.brochure-pagging-Bg .brochure-Content .brochure-SlideLeft{width:39px; height:420px; float:left;}
+.brochure-pagging-Bg .brochure-Content .brochure-SlideLeft-top{width:39px; height:159px; background:url(../images/Place-Content-bg_01.png) no-repeat;}
+.brochure-pagging-Bg .brochure-Content .brochure-SlideLeft-mid{width:39px; height:96px; background:url(../images/Place-Content-bg_06.png) no-repeat;}
+.brochure-pagging-Bg .brochure-Content .brochure-SlideLeft-btm{width:39px; height:174px; background:none;}
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content{width:900px; height:420px; background:none; float:left; position:relative; margin:0 auto;}
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content section{ width:296px;margin: 20px 4px 0 0;}
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content ul{margin:0px;padding:0px}
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content .last { padding:0; list-style:none; float:left; background:none;}
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content ul li { width:270px; height:190px; padding:0 15px; margin:0 0 15px 0; list-style:none;}
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content ul li img{float:left; width:118px; height:167px; -webkit-box-shadow:2px 2px 7px rgba(50, 50, 50, 0.8); -moz-box-shadow:2px 2px 7px rgba(50, 50, 50, 0.8); box-shadow:2px 2px 7px rgba(50, 50, 50, 0.8); float:left;}
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content ul li .content{width:137px; height:180px; text-align:left; color:#FFFFFF; float:left; margin:0 0 0 15px;position:relative}
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content ul li .content h1 {font-weight:bold; font-size:14px; margin:0 0 10px 0; padding:0; color:#ffffff}
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content ul li .content h2 {font-weight:bold; font-size:12px; margin:0; padding:0; color:#ffb400; text-align:justify; }
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content ul li .content p {font-weight:normal; font-size:12px; margin:0 0 10px 0; padding:0; text-align:justify;}
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content ul li .content p.new { font-size:11px; }
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content section ul li .content .input {position:absolute;bottom:0px; background:url(../images/ebrochurelist-input-bg.png) no-repeat; width:137px; height:29px; border:none; float:left; font-size:11px; color:#000; margin:0 0 10px 0; }
+.brochure-pagging-Bg .brochure-Content .brochure-Mid-Content section ul li .content .input input { background-position:100px -1px; } 
+.brochure-pagging-Bg .brochure-Content .brochure-SlideRight-top{width:39px; height:45px; background:url(../images/Place-Content-bg_03.png) no-repeat;}
+/*.brochure-pagging-Bg .Place-Content .Place-SlideRight-Page{width:31px; height:30px; background:url(../images/Place-Content-bg_04.png) no-repeat; color:#fff; padding:7px 0 0 7px; font-size:13px; border:1px solid #9f8e89; border-left:none;}*/
+.brochure-pagging-Bg .brochure-Content .brochure-SlideRight-Page span{font-size:17px; color:#f0eebd;}
+.brochure-pagging-Bg .brochure-Content .brochure-SlideRight-midt{width:39px; height:82px; background:url(../images/Place-Content-bg_05.png) no-repeat;}
+.brochure-pagging-Bg .brochure-Content .brochure-SlideRight-mid{width:39px; height:90px; background:url(../images/Place-Content-bg_07.png) no-repeat;}
+.brochure-pagging-Bg .brochure-Content .brochure-SlideRight-btm{width:39px; height:176px; background:none;}
+
+/* Multimedia*/
+.multi-Bg { background-position: center top; background-repeat: no-repeat; height: 490px;}
+.multi-Content { width:979px; height:490px; background:url(../images/Multimedia-content-bg.png) no-repeat; margin:auto; position:relative; font-size:12px; color:#000;}
+.multi-Content .title { float:left; width:931px; height:26px; margin:21px 24px 10px 24px; font-size:18px; font-weight:normal; color:#656565; }
+.multi-Content .Ddown { color: #FFFFFF; cursor: pointer; float: left; font-size: 16px; height: 30px; margin: 0 24px 20px; padding: 0; width: 931px;}         
+.multi-Content .Ddown span {background: url("../images/multimedia-arrow-down.jpg") no-repeat scroll right center transparent; color: #FF8200; float: right; font-family: 'OpenSansRegular',sans-serif; font-size: 13px; padding: 2px 14px 0 0; }    
+
+.multi-Content .Dlist-wrapper { width:979px; height:214px; position:absolute; left:0; top:43px; overflow:hidden; }
+.multi-Content .Dlist {width:979px; height:214px; background:url(../images/multi-ddrop-bg.png) no-repeat; position:absolute; left:0; top:-214px; padding-top:30px; z-index:3;}
+.multi-Content .Dlist .close {width:10px; height:10px; background:url(../images/multi-ddrop-close.gif) no-repeat; position:absolute; right:5px; top:10px; cursor:pointer;}
+.multi-Content .Dlist .close a { float:left; width:10px; height:10px; }
+.multi-Content .Dlist ul{ width:939px; height:150px; margin:0 20px; padding:0; list-style:none; }
+.multi-Content .Dlist ul li { width:153px; height:150px; margin:0 4px 0 0; float:left; cursor:pointer; padding-bottom:5px; position:relative; }
+.multi-Content .Dlist ul li.last { margin:0; }
+.multi-Content .Dlist ul li .overlay, .Multi-Content .Dlist ul li.current .overlay { position:absolute; z-index:4; top:0; left:0; width:153px; height:155px; background:url(../images/multimedia-hover.png) top left repeat; display:none; }
+.multi-Content .Dlist ul li .overlay a { float:left; width:153px; height:150px; }
+.multi-Content .Dlist ul li.hover, .multi-Content .Dlist ul li.current { background: none repeat scroll 0 0 #222428; }
+.multi-Content .Dlist ul li.hover .overlay, .multi-Content .Dlist ul li.current .overlay { display:block; }
+.multi-Content .Dlist ul li img{ position:absolute; top:0; left:0; border:1px solid #444649; -webkit-box-shadow: 3px 3px 1px rgba(150, 150, 150, 0.42); -moz-box-shadow:3px 3px 1px rgba(150, 150, 150, 0.42); box-shadow:3px 3px 1px rgba(150, 150, 150, 0.42);}
+.multi-Content .Dlist ul li p { position:absolute; top:111px; left:0; width:150px; height:20px; font-size:14px; color:#fff; margin:10px 0 0 3px; padding:0;}
+.multi-Content .Dlist ul li p a { color:#fff; }
+.multi-Content .Dlist ul li.current p a { color:#FF8200; }
+.multi-Content .multiContainer{height:383px;overflow:hidden;width:300px;float:left}
+.multi-Content .Vlist { width:307px; height:385px; float:left; }
+.multi-Content .Vlist ul { padding:0; margin:0; width:100%; float:left; list-style:none; }
+.multi-Content .Vlist ul li { display:table; width:282px; height:111px; padding:0; margin:0; float:left; background:url(../images/multimedia-listing-bg.png) top right no-repeat; }
+.multi-Content .Vlist ul li a { float:left; width:268px; height:111px; margin-left:14px; }
+.multi-Content .Vlist ul li a img { float:left; width:126px; height:83px; margin:12px 10px 0 10px; }
+.multi-Content .Vlist ul li a span { display:table-cell; vertical-align:middle; height:111px; width:89px; }
+   
+.multi-Content .Vlist ul li a:hover { background:url(../images/multimedia-hover.png) repeat;}
+.multi-Content .Vlist ul li.selected a { background:url(../images/multimedia-hover.png) repeat;}
+.multi-Content .Vshow{width:647px; height:380px; float:left; padding:0 0 0 25px;}
+.multi-Content .Vshow .title { float:left; width:622px; height:25px; font-size:20px; margin:0 0 10px 0; color:#000; }
+.multi-Content .Vshow .player { float:left; width:622px; height:274px;}
+.multi-Content .Vshow .describe{ float:left; width:400px; font-size:11px; float:left; margin:10px 0 0 0; text-align:justify;}
+.multi-Content .Vshow .save { float:left; height:25px; background:url(../images/Multimedia-save.png) no-repeat; float:right; margin:20px 0 0 0; cursor:pointer;}
+.multi-Content .Vshow .recom { float:left; height:27px; background:url(../images/Multimedia-recom.png) no-repeat; float:right; margin:20px 26px 0 5px; cursor:pointer;}
+/* End of Multimedia*/
+
+/* Mobile Apps */
+.Mobile-Bg { height:540px; background:url(../images/MobileApps-bg.jpg) no-repeat center 22px; }
+.Mobile-Content{width:980px; height:540px; margin:0 auto; position:relative;}
+.Mobile-Content #appsContainer { height:540px;float:left;width:980px; overflow:hidden; }
+.Mobile-Content #appsContainer #appsContent {float:left;}
+.Mobile-Content h1 { position:relative; }
+.Mobile-Content h1 .normal { font-size:22px; font-weight:bold; position:absolute; }
+.Mobile-Content h1 .apptitle { font:normal 85px 'DancingScriptRegular',sans-serif; position:absolute;font-size:52px;font-weight:bold;left:0px;top:23px  }
+.Mobile-Content h1 .small { font-size:14px; font-weight:lighter; position:absolute;top:75px;right:19px }
+.Mobile-Content .HomeStay, .Mobile-Content .TV { width:980px;float:left; }
+.Mobile-Content .HomeStay .ImgBox{width:515px; height:531px; float:left;}
+.Mobile-Content .TV .ImgBox{width:515px; height:531px; float:left; margin:0 0 0 11px;}
+.Mobile-Content .HomeStay .Content, .Mobile-Content .TV  .Content { width:444px; height:480px; float:left; margin:20px 0 0 10px;}
+.Mobile-Content .HomeStay .Content .Text, .Mobile-Content .TV .Content .Text{width:438px; min-height:100px; margin:0 auto; font-size:13px;line-height:1.2em; text-align:justify; }
+.Mobile-Content .HomeStay .Content .AppStore, .Mobile-Content .TV .Content .AppStore{float:left; width:455px; height:46px; margin:20px auto 0 auto; font-size:14px; font-weight:bold;}
+.Mobile-Content  .AppStore div { width:141px; height:46px; float:left; margin:5px 10px 0 0; cursor:pointer;}
+.Mobile-Content .AppStore .istore { background:url(../images/MobileApps-istore.png) no-repeat; }
+.Mobile-Content .AppStore .android{ background:url(../images/MobileApps-android.png) no-repeat; }
+.Mobile-Content .AppStore .bb{ background:url(../images/MobileApps-BB.png) no-repeat; }
+.Mobile-Content  .AppStore div a { float:left; width:141px; height:46px; }
+.Mobile-Content .HomeStay .ScrollMore, .Mobile-Content .TV .ScrollMore{width:150px; height:40px; margin:-50px auto 0 auto;}
+.Mobile-Content .ScrollBar{width:10px; height:400px; float:left; position:absolute; margin-top:80px; padding-top:0px; right:0; }
+/* End Mobile Apps */
+
+/*tourism Directory*/
+.tDirectory-s-Bg { background-repeat:no-repeat;background-position:center top;background-color:transparent;height:490px; }
+.tDirectory-s-Bg .tDirectory-s-Content { height: 490px; margin: 0 auto; padding: 0; text-align: left; width: 978px;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-SlideLeft{width:39px; height:429px; float:left;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-SlideLeft .tDirectory-s-SlideLeft-top{width:39px; height:159px; background:url(../images/Place-Content-bg_01.png) no-repeat;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-SlideLeft .tDirectory-s-SlideLeft-mid{width:39px; height:96px; background:url(../images/Place-Content-bg_06.png) no-repeat; cursor:pointer;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-SlideLeft .tDirectory-s-SlideLeft-btm{width:39px; height:174px; background:none;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-Mid-Content{ background:url(../images/Place-Content-bg_02_490.png) no-repeat scroll 0 0 transparent; float: left; height: 490px; position: relative; width: 900px;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-Mid-Content .tDirectory-s-Mid-Content-Overlay { width:900px; height:428px; position:absolute; display:none;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-Mid-Content .tDirectory-s-Mid-Content-Overlay div { float:left; width:450px; height:428px; background:url(../images/ajaxloader.gif) center center no-repeat; } 
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-Mid-Content-Left {width:450px; height:389px; float:left;  overflow:hidden;}
+.tDirectory-s-Bg .kMidContentViewPort ul{display:inline}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-Mid-Content-Left li{width:430px; height:167px; list-style:none; margin:0 0 10px 0; padding:15px 0 0 20px; position:relative;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-Mid-Content-Right {width:430px; height:389px; float:left; overflow:hidden; }
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-Mid-Content-Right li{width:430px; height:167px; list-style:none; margin:0 0 10px 0; padding:15px 0 0 20px; position:relative; }
+
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-SlideRight {width:39px; height:429px; float:left;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-SlideRight .tDirectory-s-SlideRight-top{height:115px;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-SlideRight .tDirectory-s-SlideRight-top {width:39px; height:82px; background:url(../images/Place-Content-bg_03.png) no-repeat;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-SlideRight .tDirectory-s-SlideRight-Page { width:38px; height:37px; background:#000; color:#fff; text-align:center; line-height:37px; font-size:11px; border:1px solid #575757; border-left:0;display:none}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-SlideRight .tDirectory-s-SlideRight-Page span {font-size:16px; color:#f0eebd;font-weight:bold; }
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-SlideRight .tDirectory-s-SlideRight-midt {width:39px; height:82px; background:url(../images/Place-Content-bg_05.png) no-repeat;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-SlideRight .tDirectory-s-SlideRight-mid {width:39px; height:90px; background:url(../images/Place-Content-bg_07.png) no-repeat; cursor:pointer;}
+.tDirectory-s-Bg .tDirectory-s-Content .tDirectory-s-SlideRight .tDirectory-s-SlideRight-btm {width:39px; height:176px; background:url(../images/Place-Content-bg_08.png) no-repeat;}
+
+.tDirectory-s-Content .Left {float: left; font-size: 16px; height: 460px; margin: 25px 0 0; overflow: hidden; padding-left: 20px; width: 212px;}
+.tDirectory-s-Content .Left h1  {font-size: 13px; font-weight: normal; margin: 0 0 10px; padding: 0;}        
+.tDirectory-s-Content .Left p { font-size:12px; margin-top:5px; } 	
+.tDirectory-s-Content .Left .input { width:167px; height:28px; background:url(../images/input-185.png) no-repeat; border:none; line-height:28px; padding:0 10px; color:#656565; margin:0 0 10px 0; } 
+.tDirectory-s-Content .Left .button { text-align:right; }
+.tDirectory-s-Content .Left .Search-btn{width:83px; height:25px; background:url(../images/agent-search-btn.png) no-repeat; float:right; margin:15px 0 0 0; float:right;}
+.tDirectory-s-Content .Left .Search-btn input{width:83px; height:25px; background:url(../images/agent-search-btn.png) no-repeat; padding:0; border:none}
+.tDirectory-s-Content .Left ul { float:left; list-style-type:none; margin:0; padding:0; width:190px; }
+.tDirectory-s-Content .Left ul li { width:190px; min-height:20px; padding:0; margin:0; font-size:11px; color:#000;}
+.tDirectory-s-Content .Left ul li .title { font-size: 12px; }
+.tDirectory-s-Content .Left ul li.title a { float: right; font-size: 10px; text-decoration: underline;}
+.tDirectory-s-Content .Left ul li.title a:hover { color: #747672;}   
+.tDirectory-s-Content .Left .selectbox-wrapper { margin-left:10px; }
+.tDirectory-s-Content .Left .selectbox-wrapper ul { width:166px; } 
+.tDirectory-s-Content .Left .selectbox-wrapper ul li { padding:0 5px; width:157px; line-height:15px; }
+.tDirectory-s-Content .Right { width:738px; float:left; font-size:12px;}
+.tDirectory-s-Content .Right h1 { float: left; font-size: 20px; font-weight: normal; margin: 25px 25px 0; padding: 0; width: 681px; height: 50px;}
+.tDirectory-s-Content .Right .Pagging { width:741px; height:38px; line-height:38px; text-align:center; }
+.tDirectory-s-Content .Right .result { width:195px; height:38px; color:#000; font-size:12px; float:left; margin:0 0 0 200px; text-align:right; padding-right:5px;}
+.tDirectory-s-Content .Right .page {width:300px; height:38px; color:#000; font-size:12px; float:left;}
+.tDirectory-s-Content .Right .page ul { width:300px; height:38px; padding:0; margin:0; overflow:hidden; list-style:none;}
+.tDirectory-s-Content .Right .page ul li {width:20px; height:38px; padding:0; margin:0; float:left;}
+.tDirectory-s-Content .Right .page ul .selected, .tDirectory-s-Content .Right .page ul .selected a { background-color:#000; color:#fff; font-weight:bold; height:18px; width:18px; margin-top:10px; line-height:18px; color:#fff; }
+.tDirectory-s-Content .Right .agent-list { overflow:hidden;width:700px; height:377px; text-align:left; margin:0 15px 0 25px; float:left; }
+.tDirectory-s-Content .Right .agent-list .Content { width:681px; text-align:left; margin:0 auto; overflow:hidden; float:left;}
+.tDirectory-s-Content .Right .agent-list .Content ul { width:100%; height:auto; margin:20px 0 0 0; padding:0; list-style:none; font-size:12px;}
+.tDirectory-s-Content .Right .agent-list .Content ul { margin:0; }
+.tDirectory-s-Content .Right .agent-list .Content ul li { width:681px; min-height:50px; padding-bottom:20px; margin-bottom:20px; border-style:none none dotted none; border-width:1px; border-color:#414040; line-height:1.3em; }
+.tDirectory-s-Content .Right .agent-list .Content ul li h2 { line-height:1.5em; margin-top:0; float:left; width:681px; }
+.tDirectory-s-Content .Right .agent-list .Content ul li .address { width:300px; min-height:50px; float:left;}
+.tDirectory-s-Content .Right .agent-list .Content ul li .contact { width:300px; min-height:50px; float:right;}
+.tDirectory-s-Content .Right .search-list .Content ul li .contact a { color:#4c4c4c; text-decoration:underline; display:inline; }
+.tDirectory-s-Content .Right .ScrollBar { width:10px; height:275px; float:left; margin-top:100px; }
+.tDirectory-s-Content .Right .ScrollBar { margin-top:105px; height:322px; }
+/*End of Tourism Directory*/
+
+/*Travel Agents*/
+.travel_agent_local-Bg { background-repeat:no-repeat;background-position:center top;background-color:transparent;height:490px; }
+.travel_agent_local-Content { background: url("../images/td-content-bg.png") no-repeat scroll center top transparent; height: 490px; margin: 0 auto; padding: 0; position: relative; width: 980px;}
+.travel_agent_local-Content .Left {float: left; font-size: 16px; height: 460px; margin: 25px 0 0; overflow: hidden; padding-left: 20px; width: 212px;}
+.travel_agent_local-Content .Left h1 { font-size:13px; padding:0; margin:0 0 10px 0; font-weight:normal; }
+.travel_agent_local-Content .Left p { font-size:12px; margin-top:5px; } 	
+.travel_agent_local-Content .Left .input { width:167px; height:28px; background:url(../images/input-185.png) no-repeat; border:none; line-height:28px; padding:0 10px; color:#656565; margin:0 0 10px 0; }  
+.travel_agent_local-Content .Left .stateSelect { width:187px; background:url(../images/input-185.png) no-repeat; border:none; color:#656565; margin:0 0 10px 0; float:left; height:28px; }
+.travel_agent_local-Content .Left .button { text-align:right; }
+.travel_agent_local-Content .Left .Search-btn{width:83px; height:25px; background:url(../images/agent-search-btn.png) no-repeat; float:right; margin:15px 0 0 0; float:right;}
+.travel_agent_local-Content .Left .Search-btn input{width:83px; height:25px; background:url(../images/agent-search-btn.png) no-repeat; padding:0; border:none}
+.travel_agent_local-Content .Left ul { float:left; list-style-type:none; margin:0; padding:0; width:190px; }
+.travel_agent_local-Content .Left ul li { width:190px; min-height:20px; padding:0; margin:0; font-size:11px; color:#000;}
+.travel_agent_local-Content .Left .selectbox-wrapper { margin-left:10px; }
+.travel_agent_local-Content .Left .selectbox-wrapper ul { width:166px; } 
+.travel_agent_local-Content .Left .selectbox-wrapper ul li { padding:0 5px; width:157px; line-height:20px; }
+.travel_agent_local-Content .Right { width:738px; height:495px; float:left; font-size:12px;}
+.travel_agent_local-Content .Right { height:490px; }
+.travel_agent_local-Content .Right .Pagging { width:741px; height:38px; line-height:38px; text-align:center; }
+.travel_agent_local-Content .Right .result { width:195px; height:38px; color:#000; font-size:12px; float:left; margin:0 0 0 200px; text-align:right; padding-right:5px;}
+.travel_agent_local-Content .Right .page {width:300px; height:38px; color:#000; font-size:12px; float:left;}
+.travel_agent_local-Content .Right .page ul { width:300px; height:38px; padding:0; margin:0; overflow:hidden; list-style:none;}
+.travel_agent_local-Content .Right .page ul li {width:20px; height:38px; padding:0; margin:0; float:left;}
+.travel_agent_local-Content .Right .page ul .selected, .agent-Content .Right .page ul .selected a { background-color:#000; color:#fff; font-weight:bold; height:18px; width:18px; margin-top:10px; line-height:18px; color:#fff; }
+.travel_agent_local-Content .Right .agent-list { overflow:hidden;width:681px; height:377px; text-align:left; margin:0 15px 0 25px; float:left; }
+.travel_agent_local-Content .Right .agent-list { margin:25px 0 25px 25px; width:695px; height:402px; }
+.travel_agent_local-Content .Right .agent-list .Content { width:681px; text-align:left; margin:0 auto; overflow:hidden; float:left;}
+.travel_agent_local-Content .Right .agent-list .Content ul { width:100%; height:auto; margin:20px 0 0 0; padding:0; list-style:none; font-size:12px;}
+.travel_agent_local-Content .Right .agent-list .Content ul { margin:0; }
+.travel_agent_local-Content .Right .agent-list .Content ul li { width:681px; min-height:50px; padding-bottom:20px; margin-bottom:20px; border-style:none none dotted none; border-width:1px; border-color:#414040; line-height:1.3em; }
+.travel_agent_local-Content .Right .agent-list .Content ul li h2 { line-height:1.5em; margin-top:0; float:left; width:681px; }
+.travel_agent_local-Content .Right .agent-list .Content ul li .address { width:300px; min-height:50px; float:left;}
+.travel_agent_local-Content .Right .agent-list .Content ul li .contact { width:300px; min-height:50px; float:right;}
+.travel_agent_local-Content .Right .search-list .Content ul li .contact a { color:#4c4c4c; text-decoration:underline; display:inline; }
+.travel_agent_local-Content .Right .ScrollBar { width:10px; height:275px; float:left; margin-top:100px; }
+.travel_agent_local-Content .Right .ScrollBar { margin-top:105px; height:322px; }
+/*End Travel Agents*/
+
+/* Where To Stay */
+.whToStay-Bg {background-repeat:no-repeat;background-position:center top;background-color:transparent;height:490px;}
+.whToStay-Content {background:url(../images/td-content-bg.png) no-repeat scroll center top transparent; width:980px; height:490px;  margin:0 auto; padding:0; position:relative;}
+.whToStay-Content .stateSelect { width:187px; background:url(../images/input-185.png) no-repeat; border:none; color:#656565; margin:0 0 10px 0; float:left; height:28px; }
+.whToStay-Content .Left { float: left; font-size: 16px; height: 460px; margin: 25px 0 0; overflow: hidden; padding-left: 20px; width: 212px;}
+
+.whToStay-Content .Left .input { width:167px; height:28px; background:url(../images/input-185.png) no-repeat; border:none; line-height:28px; padding:0 10px; color:#656565; margin:0 0 0 0; }
+.whToStay-Content .Left .seacrhbox{width:190px;float:left;}
+.whToStay-Content .Left .scrollbar{width:8px; height:335px; float:left; margin:80px 0 0 5px; }
+
+.whToStay-Content .Left .Search-btn input {border: medium none; height: 25px; padding: 0; width: 83px;}
+.whToStay-Content .Left p { font-size:12px; margin:15px 0px 5px; }
+.whToStay-Content .Left p a { float:right; text-decoration:underline; font-size:10px; }
+.whToStay-Content .Left h1 { font-size:13px; padding:0; margin:0 0 10px 0; font-weight:normal; }
+.whToStay-Content .Left h1 span{font-size:10px; padding:0; font-weight:normal; text-decoration:underline; cursor:pointer; float:right; margin:0 5px 0 0;}
+.whToStay-Content .Left ul{width:100%; padding:0; margin:0; list-style:none;}
+.whToStay-Content .Left ul li{width:190px; min-height:20px; padding:0; margin:0; font-size:11px; }
+
+.whToStay-Content .Left .select select{width:185px; height:25px; text-align:left; margin:0 0 0 0px; font-size:20px; float:left; background:#fff; border:none;}
+
+.whToStay-Content .Left .select-Btn{width:20px; height:10px; float:right; margin:-1px 7px 0 0; cursor:pointer; position:absolute; left:170px; top:2px;}
+.whToStay-Content .Left .select-Btn .up{width:20px; height:10px; background:url(../images/agent-state-btn_01.jpg) no-repeat;}
+.whToStay-Content .Left .select-Btn .down{width:20px; height:20px; background:url(../images/agent-state-btn_02.jpg) no-repeat;}
+.whToStay-Content .Left .Search-btn{width:83px; height:25px; background:url(../images/agent-search-btn.png) no-repeat; float:right; margin:15px 0 0 0; float:right;}
+.whToStay-Content .Left .Search-btn input{width:83px; height:25px; background:url(../images/agent-search-btn.png) no-repeat; padding:0; border:none}
+.whToStay-Content .Left .ScrollBar{width:10px; height:340px; float:right; margin:0 5px 0 0;}
+
+.whToStay-Content .Right{width:745px; height:490px; float:left;  font-size:12px;}
+.whToStay-Content .Right .whToStay-list{height: 402px; margin: 25px 0 25px 20px; text-align: left; width: 725px;}
+.whToStay-Content .Right .whToStay-list .title{width:685px; height:30px; text-align:left; margin:0 0 10px 0; font-size:20px;}
+.whToStay-Content .Right .whToStay-list .title .select{width:200px; height:24px; text-align:left; margin:0 0 0 0px; font-size:20px; float:left; background:url(../images/dropdown-input-bg-200.png) no-repeat; border:none; font-size:12px; font-weight:normal; padding:5px 0 0 10px;}
+.whToStay-Content .Right .whToStay-list .title .select select{width:185px; height:25px; text-align:left; margin:0 0 0 0px; font-size:20px; float:left; background:#fff; border:none;}
+.whToStay-Content .Right .list{width:685px; height:360px; overflow:hidden;float:left}
+.whToStay-Content .Right .list ul { width:695px; padding:0; margin:0; list-style:none; float:left; border-top:1px dotted #000; }
+.whToStay-Content .Right .list ul li { float:left; width:685px; margin:0; padding:0; border-bottom:1px dotted #000; }
+.whToStay-Content .Right .list ul .bgcolor { background:url(../images/where-to-stay-libg.png) repeat; }
+.whToStay-Content .Right .list ul li .detail { width:480px; margin:0; padding:10px; float:left;} 
+.whToStay-Content .Right .list ul li .detail h1 { font-size:14px; font-weight:normal; width:500px; margin:0 0 5px 0; float:left; } 
+.whToStay-Content .Right .list ul li .detail h1 a { float:left; margin:3px 5px 0 0; }
+.whToStay-Content .Right .list ul li .detail h1 span img { float:left; margin-top:0; }
+.whToStay-Content .Right .list ul li .detail p { float:left; font-size:12px; line-height:1.2em; margin-top:0; width:400px; text-align:justify; } 
+.whToStay-Content .Right .list ul li .detail p a { clear:both; float:left; margin:5px 0 0 0; font-weight:bold; text-decoration:underline; } 
+.whToStay-Content .Right .list ul li .detail p a span { color:#ff0000; } 
+.whToStay-Content .Right .list ul li .price { width:175px; margin:0; padding:0; float:left; text-align:right; padding:13px 10px 0 0;}
+.whToStay-Content .Right .ScrollBar{width:10px; height:335px; float:left; margin:23px 0 0 10px;}
+.whToStay-Content .Right .page ul .selected { background-color:#000; color:#fff; font-weight:bold; height:18px; width:18px; margin-top:10px; line-height:18px; color:#fff; }
+
+.whToStay-Sel-Middle{width:330px; height:390px; position:relative; float:left; margin:20px 0 0 25px;}
+
+.whToStay-Sel-Middle .stayPop{width:746px; height:428px; background:url(../images/place-Stay-pop.png) no-repeat; position:absolute; right:-17px; top:-19px; z-index:100; cursor:default;}
+.whToStay-Sel-Middle .stayPop .Title { width:700px; height:30px; font-size:18px; font-weight:bold; margin:20px 0 0 20px; color:#ff8a00; }
+.whToStay-Sel-Middle .stayPop .Title span { color:#656565; font-size:14px; font-weight:normal; }
+.whToStay-Sel-Middle .stayPop .Content{width:720px; height:350px; margin:20px 0 0 20px; float:left;}
+/*.whToStay-Sel-Middle .stayPop .Content ul{width:725px; margin:0; padding:0; float:left; border-top:none; list-style:none;}*/
+.whToStay-Sel-Middle .stayPop .Content ul li{width:685px; float:left; padding:10px 0 15px 10px; margin:0; border:none; font-weight:normal; background:none; list-style:none;}
+.whToStay-Sel-Middle .stayPop .Content ul .Bgcolor{width:695px; background:#f5f4f1; border:none;}
+.whToStay-Sel-Middle .stayPop .Content .List-Title{ height:26px; width:695px; background:#f3f2ef; color:#000; padding:0 0 0 10px; border-bottom:1px dotted #000; font-size:12px; font-weight:bold; }
+#resultContainer{background: none no-repeat scroll 0 0 transparent; position: relative; right: 0; top: 0; width: 720px;}
+#resultContainer .Content{padding:0px;margin:0px}
+#resultContainer li{padding:10px 0 15px 10px;margin:0px}
+.whToStay-Sel-Middle .stayPop .Content .List-Title a { line-height:26px; }
+.whToStay-Sel-Middle .stayPop .Content .List-Title a img { border:none; }
+.whToStay-Sel-Middle .stayPop .Content .List-Title .Name{height:26px; width:390px; float:left;}
+.whToStay-Sel-Middle .stayPop .Content ul li a { color:#000; }
+.whToStay-Sel-Middle .stayPop .Content ul li a:hover { text-decoration:underline; }
+.whToStay-Sel-Middle .stayPop .Content ul li .Name{height:80px; width:390px; font-size:12px;  float:left; text-align:left; font-size:12px; }
+.whToStay-Sel-Middle .stayPop .Content ul li .Name .Title{margin:0; padding:0; font-weight:bold; font-size:12px; color:#000; width:370px; height:18px;}
+.whToStay-Sel-Middle .stayPop .Content ul li .Name .Content{margin:0; padding:0; font-size:12px; font-weight:normal; width:370px; height:35px; color:#000; text-align:justify;}
+.whToStay-Sel-Middle .stayPop .Content ul li .Name .Content p { display:none; }
+.whToStay-Sel-Middle .stayPop .Content ul li .Name .Website{margin:0; padding:0; font-size:12px; font-weight:bold; width:370px; height:15px; color:#000;}
+.whToStay-Sel-Middle .stayPop .Content ul li .Name .Website a { text-decoration:underline; }
+.whToStay-Sel-Middle .stayPop .Content ul li .Name .Website a:hover { color:#FF8A00; }
+.whToStay-Sel-Middle .stayPop .Content .List-Title .Rating{height:26px; width:140px; float:left;}
+.whToStay-Sel-Middle .stayPop .Content ul li .Rating{height:80px; width:140px; font-size:12px; float:left; text-align:left;}
+.whToStay-Sel-Middle .stayPop .Content ul li .Rating .Rating-Star{height:18px; width:16px;background:url(../images/rating-star.png) no-repeat; float:left;}
+.whToStay-Sel-Middle .stayPop .Content .List-Title .Price{height:26px; width:150px; float:left; }
+.whToStay-Sel-Middle .stayPop .Content ul li .Price{height:80px; width:150px; font-size:12px; float:left; text-align:left; color:#000;}
+.whToStay-Sel-Middle .stayPop .Content .Scroll-Bar{width:10px; height:250px; float:right; margin-top:60px; }
+.whToStay-Sel-Middle .stayPop .Close{width:20px; height:20px; position:absolute; left:722px; top:5px; cursor:pointer;}
+
+.pop-detail{width:700px; height:380px; position:absolute; z-index:10000; background:url(../images/package-pop-detail-bg.jpg) no-repeat; padding:30px;}
+.pop-detail .Close{width:19px; height:18px; position:absolute; right:10px; top:10px; cursor:pointer; background:url(../images/package-pop-detail-close.jpg) no-repeat;}
+.pop-detail .content { width:720px; height:380px; float:left; overflow:hidden;}
+.pop-detail .content .left { width:395px; float:left; margin-right:10px; padding-right:10px; border-right:1px dotted #000; font-size:12px; text-align:justify; }
+.pop-detail .content .left ul { margin-left:10px; padding-left:10px; }
+.pop-detail .content .left ul li { margin:0 0 2px 10px; padding-left:0; }
+.pop-detail .content .left h1 { font-size:17px; color:#ff8a00; margin:0; padding:0;}
+.pop-detail .content .right { width:265px; float:left; overflow:hidden; }
+.pop-detail .content .right .container  { width:265px; min-height:20px; font-size:12px;}
+.pop-detail .content .right .title { width:90px; float:left; font-weight:bold;}
+.pop-detail .content .right .detail { width:170px; float:left;}
+.pop-detail .content .right .detail img { float:left; }
+.pop-detail .ScrollBar {width:10px; height:300px; float:left; margin:80px 0 0 1px; }
+/*End*/
+
+/*SiteMap*/
+.sitemap-Content h2{color:#000000; font-size:16px; font-weight:bold;}
+.sitemap-Content a{text-decoration:underline; color:#464646;}
+.sitemap-Content .LeftList{width:330px; margin:0; padding:0px; float:left; border-style:none dotted none none; border-width:1px; border-color:#b2afad;}
+.sitemap-Content .Right {float: left; height: 440px; margin: 0 auto; padding: 25px 25px 0; top: 0; width: 693px;}
+
+.sitemap-Content .Right #localContainer{height:440px}
+.sitemap-Content .RightList{width:320px; margin:0; padding:0 0 0 20px; float:left;}
+/*.sitemapContent ul { margin:0; padding:20px 0 0 0; list-style:none;}*/
+.sitemap-Content ul li {margin:0 0 10px 0; padding:0; list-style:none; width:300px; border-bottom:0; clear:both; }
+.sitemap-Content ul li, .sitemapContent ul li a { font-weight:bold; }
+.sitemap-Content ul li li { padding-left:20px; list-style:none; width:280px; border-bottom:0; margin:0 0 5px 0; }
+.sitemap-Content ul li li a { font-weight:normal; }
+.sitemap-Content ul ul { margin-top:10px; width:280px; }
+.sitemap-Content ul ul ul { margin-top:10px; width:260px; }
+
+/*End SiteMap*/
+
+/********************************************** START K ELEMENTS ***********************************************/
+
+.kMidContentViewPort{ width:900px;height:439px;overflow:hidden;}
+.kMidContentWrapper{position:relative;float:left;width:900px;height:439px;}
+.kMidContentItem{width: 900px;}
+.Place-Mid-Content .KPagination{margin-top:-2px}
+.KPagination {height: 46px;line-height: 38px;z-index:300;width:100%;overflow:hidden}
+.KPagination .pagingContainer{float:left;position:relative;left:50%}
+.KPagination a { text-decoration: none; color: #ffffff; display:inline-block}
+.KPagination span{ margin:0px 0px 0px 10px;color:#787878}
+.KPagination section{ height:46px;float:left;}
+.KPagination .leftEdge,.KPagination .pagingBody,.KPagination .rightEdge{position: relative;left:-50%;overflow:hidden}
+.KPagination .leftSection{float: left;}
+.KPagination .rightSection{float: right;}
+.KPagination .pagingTitle .select{color:#fe9b23;font-weight:bold}
+.KPagination .pagingTitle section{margin:0px 10px 0px 0px;font-size:15px;}
+.KPagination .pagingBody{background:url(../images/pagingbodyg.png) top left repeat-x;color:#ffffff;width:865px}
+.KPagination .result {height: 46px;font-size: 12px;margin: 0 0 0 0;text-align: left;padding: 0px 0px 0px 20px;float: left;}
+.KPagination .page {vertical-align:middle;height: 46px;font-size: 12px;text-align:center;margin:0px 0px 0px 20px;float: left;}
+.KPagination .page ul {height: 46px;padding: 0;margin: 0;list-style: none;text-align:center;float: left;text-align: center;}
+.KPagination .page ul li {width: 15px;height: 30px;padding: 0;margin: 0 3px;float: left;text-align:center;}
+.KPagination .selected {font-weight: bold;height: 18px;width: 18px;margin-top: 10px;border-bottom: 5px solid #fe9b23;color: white;float: left;}
+
+/* PROMOTION */
+.promotion-show{bottom:0px;}
+.promotion-close{bottom:-145px;}
+.promotion{width:100%;height:180px;background-color:#000;position:fixed;background-color:rgba(0, 0, 0, 0.91);z-index:9999;}
+.promotion .toggleArrowDown{width:100%;}
+.promotion .toggleArrowUp{width:100%;}
+.promotion .toggleArrow{height:25px;text-align:center;color: #cccccc;font-size:12px;margin-top: 8px;cursor:pointer;}
+.promotionWrapper {width: 1097px;margin: 0 auto;}
+.promotionWrapper p{color:#fff;margin:0px 0px 0px 56px; padding:0;}
+.promotionPrev {opacity: 1;width: 46px;position: relative;top: 25px;float:left;}
+.promotionNext {opacity: 1;position: relative;margin-left: 15px;width: 46px;top: 25px;float:left;} 
+.promoTitle {font:bold 16px 'OpenSansRegular',sans-serif;}
+.promotionContent{opacity:1; width:990px; float:left; overflow:hidden;}
+.promotionContent ul{margin:0px; padding:0px; white-space: nowrap;}
+.promotionContent li{  display: inline-block; width:320px; height:110px; margin:0px 0px 0px 0px; padding:12px 0px 0px 10px; text-align: left; white-space: normal;}
+.promotionContent li img{border:0px; width:100px; height:67px; float:left;} 
+.promotionContent li p{color:#fff; font-weight:bold; font-size:11px; float:left; width:200px; height:100px; margin:0px 0px 0px 10px; padding:0;}
+.promotionContent li p a { color: #FFFFFF; margin-bottom: -10px;}
+.promotionContent li p a:hover { color: #FF8A00; text-decoration: none; }
+.promotionContent li img{ border: 1px solid #fff; }
+.promotionContent li span{color:#fff; font-weight:normal; font-size:10px; width:80px; height:20px; margin:0; padding:0;}  
+.promotionContent li.last { background:none; }
+
+
+#ui-carousel-next{ color:white;} 
+#ui-carousel-prev{color:white;}
+.promotionButtons{
+  margin:0px;
+  padding:0px;
+  position:absolute;
+  top:70px;
+}
+
+.kPromoPaging{
+  margin: 0px;
+  padding: 0px;
+
+  float: left;
+  left: 50%;
+  top:150px;
+  position: absolute;
+}
+
+a.kShowPage{
+
+  background-color:#444444;
+  float:left;
+  height:10px;
+  margin:4px 3px;
+  text-indent:-9999px;
+  width:10px;
+  /*border:1px solid #ccc;*/
+  
+  /* CSS3 rounded corners */
+  
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+}
+
+a.kShowPage:hover,
+a.kShowPage.active{
+  /*background-color:#2993dd*/;
+  background-color:#ffffff;
+  
+  /*  CSS3 inner shadow */
+  
+  -moz-box-shadow:0 0 7px #1e435d inset;
+  /*-webkit-box-shadow:0 0 7px #1e435d inset;*/
+  box-shadow:0 0 7px #1e435d inset;
+}
+
+a.kShowPage:visited {
+  color:#0196e3;
+  text-decoration:none;
+  outline:none;
+}
+
+footer
+        {
+            margin: 0 auto;
+        }
+        .bgRoll
+        {
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        .bgimg
+        {
+            height: 5208px;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+        .inner_bgimg
+        {
+            float: left;
+            left: 50%;
+            position: relative;
+        }
+        .bgimg .inner_bgimg img
+        {
+            cursor: default;
+            left: -50%;
+            position: relative;
+        }
+        .inner_layer
+        {
+            float: left;
+            left: 50%;
+            position: relative;
+        }
+        .inner_layer img
+        {
+            cursor: default;
+            left: -50%;
+            position: relative;
+        }
+        .fixContainer
+        {
+            margin: 0 auto;
+            width: 978px;
+        }
+        section
+        {
+            background-image: none;
+            overflow: hidden;
+            position: relative;
+        }
+        section div
+        {
+            background-position: center 0;
+            background-repeat: no-repeat;
+        }
+        section div img
+        {
+            border: medium none;
+            cursor: pointer;
+        }
+        section div p
+        {
+            color: #FFFFFF;
+            font-size: 13px;
+            font-weight: normal;
+            line-height: 1.3em;
+            margin: 10px 0;
+            padding: 0;
+        }
+        section .showMoreContainer div
+        {
+            margin: 0 auto;
+            width: 1000px;
+        }
+        section div h1
+        {
+            color: #000000;
+            font-size: 40px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        section div h1 span
+        {
+            font-weight: normal;
+        }
+        section div h1 a:hover
+        {
+            color: #706455;
+        }
+        #sliderContainer
+        {
+            background-color: #FFFFFF;
+            opacity: 0.5;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 8px;
+            z-index: 10001;
+        }
+        #slider
+        {
+            background: none repeat scroll 0 0 transparent;
+            margin: 50px 0 0;
+        }
+        #slider a
+        {
+            background: url("http://122.248.252.16/tourism/assets/public/images/ui-bg_glass_70a_ede4d4_1x400.png") repeat-x scroll 50% 50% #000000;
+            bottom: 0;
+            height: 50px;
+            left: 0;
+            margin: 0;
+            width: 8px;
+        }
+        .fixContainer div
+        {
+            opacity: 1;
+        }
+        .fixContainer h1
+        {
+            color: #FFFFFF;
+            font: 50px 'DancingScriptRegular' ,sans-serif;
+            margin-bottom: 10px;
+        }
+        .fixContainer h1 .big
+        {
+            font-size: 91px;
+        }
+        .fixContainer img
+        {
+            border: 0 none;
+        }
+        .fixContainer .showMoreContainer h1
+        {
+            font: bold 40px 'OpenSans-Bold' ,Helvetica,Arial,sans-serif;
+            margin: 20px 0;
+        }
+        #parallaxFooter
+        {
+            position: absolute;
+            z-index: 1000;
+        }
+        /*.top25more
+        {
+            background: url("~/media/Tourism Malaysia/assets/en/Image/parallax/index-ex-more.png") no-repeat scroll left top transparent;
+            color: #FFFFFF;
+            font-size: 24px;
+            height: 135px;
+            line-height: 135px;
+            margin: 0 auto;
+            text-align: center;
+            text-transform: uppercase;
+            width: 145px;
+        }
+        .top25more:hover
+        {
+            color: #00C9F8;
+        }*/
+/********************************************** FINISH K ELEMENTS ***********************************************/
+
+.tchScrollerBar{cursor:default;background: none repeat scroll 0 0 #85807D; border-radius: 5px 5px 5px 5px; width: 8px;height:20px;position:absolute;top:0px;right:10px;min-height:20px}
+.tchScrollerBarshow{opacity:1;}
+.tchScrollerBarhide{opacity:0.5;}
+.unselect {-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-o-user-select: none;user-select: none;}
+
+/************************* pagging *********************************/
+.tchPagging section{list-style:none; float:left; overflow:hidden; }
+.paggingDis {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #000000;
+    border-color: #575757 #575757 #575757 -moz-use-text-color;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 0;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    width: 38px;
+}
+.paggingDis .curPageDis {
+    color: #F0EEBD;
+    font-size: 17px;
+    font-weight:bold;
+}
+
+/* Checkboxes */
+.jquery-safari-checkbox { display: inline; font-size: 20px; line-height: 20px; cursor: pointer; cursor: pointer; margin-right:5px; }
+.jquery-safari-checkbox .mark {display: inline;}
+.jquery-safari-checkbox img {vertical-align: middle; width: 20px; height: 20px;}
+.jquery-safari-checkbox img {background: transparent url(../images/checkboxes.png) no-repeat;}
+.jquery-safari-checkbox img {background-position: 0px 0px;}
+.jquery-safari-checkbox-hover img {background-position: -20px 0px;}
+.jquery-safari-checkbox-checked img {background-position: 0px -20px;}
+.jquery-safari-checkbox-checked .jquery-safari-checkbox-hover img {background-position: -20px -20px;}
+.jquery-safari-checkbox-disabled img {background-position: 0px -40px;}
+.jquery-safari-checkbox-checked .jquery-safari-checkbox-disabled img {background-position: 0px -60px;}
+
+
+/* pagging for wer to stay */
+.tDirectory-s-Content .Right .Pagging, .agent-Content .Right .Pagging, .whToStay-Content .Right .Pagging, .package-Content .Right .Pagging {
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 741px;
+}
+.tDirectory-s-Content .Right .result, .agent-Content .Right .result, .whToStay-Content .Right .result, .package-Content .Right .result {
+    color: #000000;
+    float: left;
+    font-size: 12px;
+    height: 38px;
+    margin: 0 0 0 170px;
+    padding-right: 5px;
+    text-align: right;
+    width: 195px;
+}
+.tDirectory-s-Content .Right .page, .agent-Content .Right .page, .whToStay-Content .Right .page, .package-Content .Right .page {
+    color: #000000;
+    float: left;
+    font-size: 12px;
+    height: 38px;
+    width: 300px;
+}
+.tDirectory-s-Content .Right .page ul, .agent-Content .Right .page ul, .whToStay-Content .Right .page ul, .package-Content .Right .page ul {
+    height: 38px;
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 300px;
+}
+.tDirectory-s-Content .Right .page ul .selected, .agent-Content .Right .page ul .selected, .stay-Content .Right .page ul .selected, .package-Content .Right .page ul .selected, .tDirectory-s-Content .Right .page ul .selected a, .agent-Content .Right .page ul .selected a, .whToStay-Content .Right .page ul .selected a, .package-Content .Right .page ul .selected a {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 10px;
+    width: 26px;
+}
+.tDirectory-s-Content .Right .page ul li, .agent-Content .Right .page ul li, .whToStay-Content .Right .page ul li, .package-Content .Right .page ul li {
+    float: left;
+    height: 38px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 22px;
+}
+/* pagging for wer to stay */
+
+/* result wer to stay */
+#placesTscrollContainer {
+    float: left;
+    height: 330px;
+    overflow: hidden;
+    width: 715px;
+}
+
+
+/* nearbyTscrollContainer */
+#nearbyTscrollContainer{width:735px; height:340px;overflow:hidden;float: left;}
+.Place-Sel-Middle .NearbyPop ul{float:left;width:730px;}
+/* */
+#getHereContainer .getHereContent{padding:0px 10px 0px 0px;}
+
+/* */
+.contact-right{float:right}
+.contact-right p, .contact-right .linkfb{float:none}
+
+/* footer form label */
+.footer_last .label{display: block;font-size: 12px;font-weight: normal;padding-bottom: 7px;}
+.dirSearchContainer{height:420px}
+
+/* calendar month bottom banner for event and festival */
+.calendar-month-banner{overflow:hidden;width:786px;float:left;height:60px;}
+
+.custompane { padding: 0;}
+.contactContent { float: left; width: 300px;  } 
+
+.disclaimerTitle{
+  font:11px Helvetica,Arial,sans-serif; 
+  font-weight:bold;
+  text-decoration:underline;
+ }
+
+.disclaimerDetail{
+  font:11px Helvetica,Arial,sans-serif;
+  width: 97%;
+  text-align:justify; 
+  line-height: 90%;
+  margin-top: -10px; 
+}
+.dltripcontainer{width:100%;position:relative;}
+.dltripcontent{z-index:99;background:url('../images/banner.png') scroll no-repeat left bottom transparent;width:349px;height:199px;position:absolute;top:-199px;right:225px;display:none}
+.showdltrip .dltripcontent{display:block}
+.dlclose{display: block;height: 20px;position: absolute;right: 260px;top: -140px;width: 30px;z-index: 100;}
+

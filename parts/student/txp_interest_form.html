@@ -1,0 +1,135 @@
+<div class="page_cover">
+    <div class="interest_form_canvas">
+        <div>
+            <div id="student_form_page1_tp">
+                <img src="images/close.png" style="width: 20px; cursor: pointer" onclick="hide_interest_form_canvas('tp');" />
+                <div>
+                    <div>
+                        <div>
+                            <select name="entry.1460769177" id="join_form_field_title" style="width: 50px; left: 60px;
+                                top: 108px;">
+                                <option value=""></option>
+                                <option value="Mr.">Mr.</option>
+                                <option value="Ms.">Ms.</option>
+                                <option value="Mrs.">Mrs.</option>
+                            </select>
+                            <input type="text" name="entry.538117374" id="join_form_field_name" style="left: 120px;
+                                top: 110px; width: 160px;" />
+                            <input type="text" name="entry.1023175387" id="join_form_field_phone" style="left: 330px;
+                                top: 110px;" />
+                            <input pattern="[^ @]*@[^ @]*" type="email" placeholder="me@example.com" name="entry.1270143877"
+                                id="join_form_field_email" style="left: 60px; top: 180px;" />
+                            <select onchange="check_other_selected('join_form_field_university','join_form_field_university_input','join_uni_btn',false);"
+                                name="entry.1141292400" id="join_form_field_university" style="left: 330px; top: 180px;">
+                                <option value=""></option>
+                                <option value="Universiti Technologi Malaysia">Universiti Technologi Malaysia</option>
+                                <option value="Curtin University">Curtin University</option>
+                                <option value="Sunway University">Sunway University</option>
+                                <option value="Taylor's University">Taylor's University</option>
+                                <option value="Universiti Kebangsaan Malaysia">Universiti Kebangsaan Malaysia</option>
+                                <option value="Universiti Malaysia Sarawak">Universiti Malaysia Sarawak</option>
+                                <option value="Universiti of Malaya">Universiti of Malaya</option>
+                                <option value="University Malaysia Pahang">University Malaysia Pahang</option>
+                                <option value="University Nottingham Malaysia Campus">University Nottingham Malaysia
+                                    Campus</option>
+                                <option value="Universiti Putra Malaysia">Universiti Putra Malaysia</option>
+                                <option value="Universiti Sains Malaysia">Universiti Sains Malaysia</option>
+                                <option value="Universiti Teknologi Petronas">Universiti Teknologi Petronas</option>
+                                <option value="Universiti Utara Malaysia">Universiti Utara Malaysia</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <input type="text" name="entry.493557309" value="" id="join_form_field_university_input"
+                                placeholder="Enter your university name." style="display: none; left: 330px;
+                                top: 180px;" />
+                            <a id="join_uni_btn" style="display: none; left: 340px; top: 211px; width: 200px;
+                                height: 20px; color: #66FFFF; font-size: 14px; text-decoration: underline;" onclick="check_other_selected('join_form_field_university','join_form_field_university_input','join_uni_btn',true);">
+                                << Choose from university list </a>
+                            <select name="entry.1995515099" id="join_form_field_course" style="left: 60px; top: 250px;">
+                                <option value=""></option>
+                                <option value="Management/Commerce">Management/Commerce</option>
+                                <option value="Social Studies (ie. Political science)">Social Studies (ie. Political
+                                    science)</option>
+                                <option value="Arts and Architecture">Arts and Architecture</option>
+                                <option value="Sciences">Sciences</option>
+                                <option value="Communications">Communications</option>
+                                <option value="IT">IT</option>
+                                <option value="Engineering">Engineering</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <select name="entry.1179901162" id="join_form_field_yearofstudy" style="left: 330px;
+                                top: 250px;">
+                                <option value=""></option>
+                                <option value="Pre-University (Matriculation/Foundation/A-Level)">Pre-University (Matriculation/Foundation/A-Level)</option>
+                                <option value="Diploma">Diploma</option>
+                                <option value="First Year Undergraduate">First Year Undergraduate</option>
+                                <option value="Second Year Undergraduate">Second Year Undergraduate</option>
+                                <option value="Third Year Undergraduate">Third Year Undergraduate</option>
+                                <option value="Fourth Year Undergraduate">Fourth Year Undergraduate</option>
+                                <option value="Master Postgraduate">Master Postgraduate</option>
+                                <option value="Doctor of Philosophy Postgraduate">Doctor of Philosophy Postgraduate</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div class="clearfix">
+                            </div>
+                            <button style="left: 500px; top: 310px; width: 100px;" class="backbtn" onclick="if(validate_interest_form(1)){hide_element('student_form_page1_tp'); show_element('student_form_page2_tp');}">
+                                Next ></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="student_form_page2_tp" style="display: none">
+                <img src="images/close.png" style="width: 20px; cursor: pointer" onclick="hide_interest_form_canvas('tp');" />
+                <div>
+                    <div>
+                        <div>
+                            <select name="entry.1165389572" id="join_form2_field_source" style="left: 60px; top: 140px;
+                                width: 250px;">
+                                <option value=""></option>
+                                <option value="AIESEC programme participant">AIESEC programme participant</option>
+                                <option value="Facebook">Facebook</option>
+                                <option value="Twitter">Twitter</option>
+                                <option value="Search Engine">Search Engine</option>
+                                <option value="Conferences/Session presentation">Conferences/Session presentation</option>
+                                <option value="Word of mouth">Word of mouth</option>
+                                <option value="Recruitment Stand or Poster">Recruitment Stand or Poster</option>
+                                <option value="Media (TV, radio, newspaper, etc.)">Media (TV, radio, newspaper, etc.)</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <select name="entry.1104906559" id="join_form2_field_contactmethod" style="left: 60px;
+                                top: 220px; width: 250px;">
+                                <option value=""></option>
+                                <option value="Email">Email</option>
+                                <option value="Phone Call">Phone Call</option>
+                            </select>
+                            <input type="hidden" name="draftResponse" value="[]">
+                            <input type="hidden" name="pageHistory" value="0">
+                            <div class="btn-container">
+                                <button onclick="hide_element('student_form_page2_tp'); show_element('student_form_page1_tp');"
+                                    class="backbtn" style="left: 50px; top: 310px; width: 100px;">
+                                    < Back</button>
+                                <button onclick="if(validate_interest_form(2)){hide_element('student_form_page2_tp'); show_element('student_form_page3_tp');send_register_request('tp');}"
+                                    class="backbtn" style="left: 350px; top: 310px; width: 200px;">
+                                    Complete Registration</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="student_form_page3_tp" style="display: none">
+                <div>
+                    <div>
+                        <div>
+                            <button onclick="hide_interest_form_canvas('tp');" class="backbtn" style="left: 500px;
+                                top: 310px; width: 100px;">
+                                Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<button onclick="hide_interest_form_canvas('ga');" style="background-color: #FF0000;
+    color: #FFFFFF; font-size: large; font-weight: bold">
+    Close</button>
+</div> 

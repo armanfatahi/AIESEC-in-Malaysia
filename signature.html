@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>AIESEC in Malaysia Sugnature Generator</title>
+    <script type="text/javascript" src="scripts/jquery-1.9.1.js"></script>
+    <script type="text/javascript">
+        function $$(id) {
+            return document.getElementById(id);
+        }
+        function update_signature() {
+            next_line = "<br />";
+            $$("p1").innerHTML = '"To be the top global youth leadership organization"' + next_line + next_line;
+            $$("p1").innerHTML += "Best Regards," + next_line + next_line;
+            $$("p1").innerHTML += $$("txtName").value + next_line;
+            $$("p1").innerHTML += $$("txtRole").value + " 2013/2014" + next_line;
+            $$("p1").innerHTML += $$("txtTeam").value + next_line;
+            $$("p1").innerHTML += $$("txtDepartment").value + next_line;
+            $$("p1").innerHTML += $$("txtLC").value + next_line + next_line;
+            $$("p1").innerHTML += "Member of AIESEC in Malaysia" + next_line + next_line;
+            $$("p1").innerHTML += "M: " + $$("txtPhone").value + next_line;
+            $$("p1").innerHTML += "W: http://www.aiesec.my" + next_line + next_line;
+            $$("p1").innerHTML += "This message is a PRIVATE communication. ";
+            $$("p1").innerHTML += "This message and all attachments are a private communication sent by a representative of ";
+            $$("p1").innerHTML += "AIESEC Malaysia Association and may be confidential or protected by privilege. ";
+            $$("p1").innerHTML += "If you are not the intended recipient, you are hereby notified that any disclosure, ";
+            $$("p1").innerHTML += "copying, distribution or use of the information contained in or attached to this message is strictly prohibited. "
+            $$("p1").innerHTML += "Please notify the sender of the delivery error by replying to this message, and then delete it from your system. "
+            $$("p1").innerHTML += "Thank you.";
+        }
+    </script>
+</head>
+<body>
+    <table style="">
+        <tr>
+            <td>
+                Name:
+            </td>
+            <td>
+                <input id="txtName" type="text" style="width: 319px; height: 22px" />
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Role:
+            </td>
+            <td>
+                <input id="txtRole" type="text" style="width: 319px" />
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Team:
+            </td>
+            <td>
+                <input id="txtTeam" type="text" style="width: 319px" />
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Department:
+            </td>
+            <td>
+                <input id="txtDepartment" type="text" style="width: 319px" />
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Local Committe:
+            </td>
+            <td>
+                <select id="txtLC">
+                    <option value=""></option>
+                    <option value="Universiti Technologi Malaysia">Universiti Technologi Malaysia</option>
+                    <option value="Curtin University">Curtin University</option>
+                    <option value="Sunway University">Sunway University</option>
+                    <option value="Taylor's University">Taylor's University</option>
+                    <option value="University Kebangsaan Malaysia">University Kebangsaan Malaysia</option>
+                    <option value="Universiti Malaysia Sarawak">Universiti Malaysia Sarawak</option>
+                    <option value="Universiti Malaysia">Universiti of Malaya</option>
+                    <option value="University Malaysia Pahang">University Malaysia Pahang</option>
+                    <option value="University Nottingham Malaysia Campus">University Nottingham Malaysia
+                        Campus</option>
+                    <option value="Universiti Putra Malaysia">Universiti Putra Malaysia</option>
+                    <option value="Universiti Sains Malaysia">Universiti Sains Malaysia</option>
+                    <option value="Universiti Technologi Petronas">Universiti Teknologi Petronas</option>
+                    <option value="Universiti Utara Malaysia">Universiti Utara Malaysia</option>
+                    <option value="Other">Other</option>
+                </select>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Mobile Number:
+            </td>
+            <td>
+                <input id="txtPhone" type="text" style="width: 319px; height: 22px" />
+            </td>
+            <td>
+            </td>
+        </tr>
+    </table>
+    <br />
+    <a onclick="update_signature()"><u><b> Generate/update</b></u></a>
+    <br />
+    <br />
+    <p id="p1">
+        adsfadsf
+    </p>
+</body>
+</html>

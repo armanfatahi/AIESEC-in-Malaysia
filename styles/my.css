@@ -1,0 +1,68 @@
+﻿.menu_cover { z-index: 2000; background-color: rgba(255, 255, 255, 0.0); position: fixed; top: 0px; left: 0; width: 100%; height: 100%; }
+.menu_canvas { padding: 40px 40px; border-width: 1% 1% 0% 1%; z-index: 0; position: fixed; width: 1000px; height: 450px; margin: 6% 15% 15% 15%; padding: 2%; border-radius: 8px 8px 0px 0px; border-style: solid; border-color: rgba(253,250,246,0.9); overflow: auto; background-color: rgba(253,250,246,0.9); background-repeat: repeat; }
+
+.page_cover { z-index: 2000; background-color: rgba(255, 255, 255, 0.7); position: fixed; top: 0px; left: 0; width: 100%; height: 100%; }
+
+.bg_canvas { border-radius: 10px; padding: 40px 40px; float: left; }
+.img_close { position: fixed; width: 30px; height: 30px;}
+
+.info_canvas { padding: 5px; position: absolute; width: 1000px; height: 80%; top: 90px; left: 50%; margin-left: -500px; margin-top: 0px; border-radius: 10px; border-style: solid; border-color: Black; overflow: auto; background-color: rgba(0,0,0,0.9); color: #FFFFFF; }
+.info_canvas .h1 { font-family: 'Champagne & Limousines' , 'Segoe UI Semibold' , Arial, Helvetica, sans-serif; color: #FF0000; font-size: 30px; font-weight: bold; }
+
+
+.interest_form_canvas { border-radius: 10px; padding: 40px 40px; z-index: 0; border-radius: 10px; padding: 5px; position: fixed; width: 640px; height: 360px; margin: 10% 25% 10% 25%; overflow: hidden; }
+.interest_form_canvas #student_form_page1_ga { width: 640px; height: 360px; background-image: url('../images/student_ga_interest_form_page1.png'); }
+.interest_form_canvas #student_form_page2_ga { width: 640px; height: 360px; background-image: url('../images/student_ga_interest_form_page2.png'); }
+.interest_form_canvas #student_form_page3_ga { width: 640px; height: 360px; background-image: url('../images/student_ga_interest_form_page3.png'); }
+.interest_form_canvas #student_form_page1_gip { width: 640px; height: 360px; background-image: url('../images/student_gip_interest_form_page1.png'); }
+.interest_form_canvas #student_form_page2_gip { width: 640px; height: 360px; background-image: url('../images/student_gip_interest_form_page2.png'); }
+.interest_form_canvas #student_form_page3_gip { width: 640px; height: 360px; background-image: url('../images/student_gip_interest_form_page3.png'); }
+.interest_form_canvas #student_form_page1_tp { width: 640px; height: 360px; background-image: url('../images/student_tp_interest_form_page1.png'); }
+.interest_form_canvas #student_form_page2_tp { width: 640px; height: 360px; background-image: url('../images/student_tp_interest_form_page2.png'); }
+.interest_form_canvas #student_form_page3_tp { width: 640px; height: 360px; background-image: url('../images/student_tp_interest_form_page3.png'); }
+.interest_form_canvas input, .interest_form_canvas select, .interest_form_canvas button, .interest_form_canvas a { padding: 3px; border-radius: 4px; color: #000000; font-family: 'Times New Roman' , Times, serif; font-size: 18px; width: 220px; display: inline; position: absolute; }
+
+.simple_canvas { background-color: rgba(0, 0, 0, 0.5); border-radius: 10px; padding: 10px 10px; float: left; color: #FFFFFF; }
+.simple_canvas .txt { font-size: large; font-family: 'Times New Roman' , Times, serif; }
+.simple_canvas .h2 { border-width: 0px 0px 1px 0px; border-style: solid; border-color: #FF0000; font-size: x-large; font-weight: 600; font-family: 'Champagne & Limousines Bold' , 'Times New Roman' , Times, serif; }
+.simple_canvas .h3 { text-shadow: -3px 4px 5px rgba(255, 255, 255, 0.5); font-family: 'Times New Roman' , Times, serif; font-size: 30px; font-family: 'Champagne & Limousines' , 'Times New Roman' , Times, serif; }
+
+
+.separator_canvas { text-align: center; margin: 0 auto 0 auto; }
+
+.h1 { font-size: 30px; text-shadow: -2px 3px 2px rgba(0, 0, 0, 1); font-family: 'Champagne & Limousines Bold' , 'Times New Roman' , Times, serif; color: #FFFFFF; padding-bottom: 20px; }
+
+.studentbtn { -moz-box-shadow: inset 0px 1px 0px 0px #f29c93; -webkit-box-shadow: inset 0px 1px 0px 0px #f29c93; box-shadow: inset 0px 1px 0px 0px #f29c93; background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b81200), color-stop(1, #e00707) ); background: -moz-linear-gradient( center top, #b81200 5%, #e00707 100% ); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b81200', endColorstr='#e00707'); background-color: #b81200; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 1px solid #d83526; display: inline-block; color: #ffffff; font-family: Times New Roman; font-size: 21px; font-weight: normal; padding: 7px 40px; text-decoration: none; text-shadow: 1px 1px 0px #b23e35; }
+.studentbtn:hover { background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e00707), color-stop(1, #b81200) ); background: -moz-linear-gradient( center top, #e00707 5%, #b81200 100% ); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e00707', endColorstr='#b81200'); background-color: #e00707; }
+.studentbtn:active { position: relative; top: 1px; }
+/* This imageless css button was generated by CSSButtonGenerator.com */
+
+
+.alumnibtn { -moz-box-shadow: inset 0px 1px 0px 0px #bbdaf7; -webkit-box-shadow: inset 0px 1px 0px 0px #bbdaf7; box-shadow: inset 0px 1px 0px 0px #bbdaf7; background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #0557a8), color-stop(1, #147ae0) ); background: -moz-linear-gradient( center top, #0557a8 5%, #147ae0 100% ); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0557a8', endColorstr='#147ae0'); background-color: #0557a8; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 1px solid #84bbf3; display: inline-block; color: #ffffff; font-family: Times New Roman; font-size: 21px; font-weight: normal; padding: 7px 40px; text-decoration: none; text-shadow: 1px 1px 0px #528ecc; }
+.alumnibtn:hover { background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #147ae0), color-stop(1, #0557a8) ); background: -moz-linear-gradient( center top, #147ae0 5%, #0557a8 100% ); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#147ae0', endColorstr='#0557a8'); background-color: #147ae0; }
+.alumnibtn:active { position: relative; top: 1px; }
+/* This imageless css button was generated by CSSButtonGenerator.com */
+
+.companybtn { -moz-box-shadow: inset 0px 1px 0px 0px #b3a434; -webkit-box-shadow: inset 0px 1px 0px 0px #b3a434; box-shadow: inset 0px 1px 0px 0px #b3a434; background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bda00d), color-stop(1, #e8da41) ); background: -moz-linear-gradient( center top, #bda00d 5%, #e8da41 100% ); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bda00d', endColorstr='#e8da41'); background-color: #bda00d; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border: 1px solid #ffffff; display: inline-block; color: #ffffff; font-family: Times New Roman; font-size: 21px; font-weight: normal; padding: 7px 40px; text-decoration: none; text-shadow: 1px 1px 0px #ab9420; }
+.companybtn:hover { background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e8da41), color-stop(1, #bda00d) ); background: -moz-linear-gradient( center top, #e8da41 5%, #bda00d 100% ); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8da41', endColorstr='#bda00d'); background-color: #e8da41; }
+.companybtn:active { position: relative; top: 1px; }
+/* This imageless css button was generated by CSSButtonGenerator.com */
+
+.backbtn { -moz-box-shadow: inset 0px 0px 0px 0px #f29c93; -webkit-box-shadow: inset 0px 0px 0px 0px #f29c93; box-shadow: inset 0px 0px 0px 0px #f29c93; background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) ); background: -moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% ); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100'); background-color: #fe1a00; display: inline-block; color: #ffffff; font-family: arial; font-size: 13px; font-weight: normal; padding: 5px 21px; text-decoration: none; text-shadow: 1px 1px 1px #b23e35; }
+.backbtn:hover { background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) ); background: -moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% ); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00'); background-color: #ce0100; }
+/* This imageless css button was generated by CSSButtonGenerator.com */
+
+.btn { border-radius: 15px; border: 4px solid #dcdcdc; -moz-box-shadow: inset 0px 0px 0px 0px #f29c93; -webkit-box-shadow: inset 0px 0px 0px 0px #f29c93; box-shadow: inset 0px 0px 0px 0px #f29c93; background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) ); background: -moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% ); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100'); background-color: #fe1a00; display: inline-block; color: #ffffff; font-family: arial; font-size: 13px; font-weight: normal; padding: 5px 21px; text-decoration: none; text-shadow: 1px 1px 1px #b23e35; }
+.btn:hover { background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) ); background: -moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% ); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00'); background-color: #ce0100; }
+.btn:active { position: relative; top: 1px; }
+
+
+
+/*----------------------------------------- Header Entity profiles -------------------------------- */
+.entity_profile { }
+.entity_profile .f1 { color: #00AEFF; font-size: 25px; font-family: 'segoe ui light'; }
+.entity_profile .f2 { color: #ffffff; font-size: 25px; font-family: 'segoe ui Bold'; }
+.entity_profile .f3 { color: #ffffff; font-size: 21px; font-family: 'segoe ui light'; }
+.entity_profile .f4 { color: #ffffff; font-size: 21px; font-family: 'segoe ui Bold'; }
+.entity_profile .f5 { color: #ffffff; font-size: 18px; font-family: 'segoe ui light'; }
+.entity_profile .f6 { font-size: 14px; font-family: 'segoe ui light'; color: #00AEFF; }

@@ -1,0 +1,97 @@
+/* Drop down styles*/
+div.selectbox-wrapper {
+  position:absolute;
+  width:400px;
+  background-color:white;
+  margin:0px;
+  margin-top:2px;
+  margin-left:-2px;
+  padding:0px;
+  text-align:left;
+  max-height:200px;
+  font-size:12px;
+}
+.item-detail-action .selectbox-wrapper 
+{position:absolute; width:110px; height:auto;  background-color:white; background-image:none; border:none; margin:0px; margin-top:2px; margin-left:-10px; padding:0px; text-align:left; font-size:12px;}
+
+/*Drop down list styles*/
+div.selectbox-wrapper ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+  float:none;
+}
+
+.item-detail-action .selectbox-wrapper ul {list-style-type:none; margin:0px; padding:0px; background-image:none; width:110px;  height:auto; border:none;}
+
+/* Selected item in dropdown list*/
+div.selectbox-wrapper ul li.selected { 
+  background-color: #ffa140;
+}
+.item-detail-action .selectbox-wrapper ul li.selected {background-color: #313133; background-image:none; color:#fff; width:110px; border:none;}
+
+/* Hover state for dropdown list */
+div.selectbox-wrapper ul li.current {background-color: #ffe0bf;}
+.brochure-pagging-Bg .Place-Content .Place-Mid-Content ul li.current {background-color: #ffe0bf; width:auto; height:auto; margin:0; padding:0;}
+
+.item-detail-action .selectbox-wrapper ul .current { 
+  background-color:#ffe0bf;
+  background-image:none;
+  color:#fff;
+  width:110px;
+}
+
+/* Drop down list items style*/
+div.selectbox-wrapper ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding:2px;
+    
+}
+
+.brochure-pagging-Bg .Place-Content .Place-Mid-Content .selectbox-wrapper ul li{list-style-type:none; display:block; margin:0; padding:2px;  background-image:none; background-color:none; width:auto; height:auto; border:none;}
+.item-detail-action .selectbox-wrapper ul li {
+  list-style-type:none;
+  display:block;
+  margin:0;
+  padding:2px;
+  
+  background-image:none;
+  background-color:#313133;
+  width:170px; 
+  height:auto;
+  border:none;
+}
+
+/* Look and feel of select box */
+.selectbox 
+{
+  font-size:12px;
+  height:16px;
+  margin: 0px 0px 0px 0px;
+  padding-left:0;
+  width : 180px; /* Resize Width */
+  display : block;
+  text-align:left; 
+  background: url('images/dropdown-bg.png') right no-repeat;
+  
+  border:none;
+  color:#333;
+}
+
+.item-detail-action .selectbox 
+{font-size:12px;
+  height:16px;
+  margin: 0px 0px 0px 0px;
+  padding:0px;
+  width : 110px; /* Resize Width */
+  display : block;
+  text-align:left; 
+  background-image:none;
+  
+  border:none;
+  color:#fff;
+}
+
+

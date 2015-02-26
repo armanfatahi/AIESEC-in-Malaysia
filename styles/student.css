@@ -1,0 +1,11 @@
+﻿.student { width: 100%; position: absolute; top: 0px; }
+.project_table { text-align: center; width: 100%; }
+.project_table tr:nth-child(odd) { background-color: #f00; }
+.project_table tr:nth-child(even) { background-color: #006; }
+.project_table tr:first-child { background-color: #000; }
+
+.project_table table { text-align: center; width: 100%; }
+
+.project_table img { width: 100px; }
+
+

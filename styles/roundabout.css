@@ -1,0 +1,27 @@
+﻿.ga ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+}
+.ga li {
+    width: 300px;
+    height: 200px;
+    background-color: #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+.ga li.roundabout-in-focus {
+    cursor: default;
+}
+.ga li span {
+    display: block;
+    padding-top: 6em;
+}
+.ga #carbonads-container .carbonad {
+    margin: 0 auto;
+}
+.ga img {
+    width: 250px;
+}
